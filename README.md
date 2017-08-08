@@ -1,4 +1,8 @@
 # CANDY Pi Lite 利用ガイド
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
+
+![](/assets/candy-pi-lite-birdview-small.png)CANDY Pi Liteは、Raspberry Pi（ラズベリーパイ、以下ラズパイ）に取り付けて使用する3G/LTE通信ボードです。
+
+本書では、CANDY Pi Liteの利用方法について、組立方法、ソフトウェアのセットアップ方法、また製品の外寸などの情報を解説します。CANDY Pi Liteの活用方法やチュートリアルについては、[CANDY LINE Blog](http://candy-line.tumblr.com/candy-pi-lite) をご覧ください。
 
