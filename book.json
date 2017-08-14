@@ -4,11 +4,16 @@
     "author": "CANDY LINE INC.",
     "language": "ja",
     "plugins": [
-        "localized-footer"
+        "localized-footer",
+        "page-toc-button"
     ],
     "pluginsConfig": {
         "localized-footer": {
             "hline": true
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
         }
     }
 }

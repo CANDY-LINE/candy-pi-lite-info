@@ -11,4 +11,4 @@
 本書の内容は、随時加筆修正が行われます。最終更新日をご確認ください。
 
 本書の著作権は、株式会社 CANDY LINEが保有しています。
-本書の文章や写真等イメージ等の内容は、[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)ライセンスの下で公開されます。
+本書の文章や写真等イメージデータの内容は、[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)ライセンスの下で公開されます。
