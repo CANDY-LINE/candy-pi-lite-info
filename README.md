@@ -4,5 +4,5 @@
 
 3Gモデルでは、3G回線をご利用頂けます。LTEモデルでは、LTE回線をご利用頂けます。
 
-本書では、CANDY Pi Liteの利用方法について、組立方法、ソフトウェアのセットアップ方法、また製品の外寸などの情報を解説します。CANDY Pi Liteの活用方法やチュートリアルについては、[CANDY LINE Blog](http://candy-line.tumblr.com/candy-pi-lite) をご覧ください。
+本書では、CANDY Pi Liteの利用方法について、組立方法、利用開始までのセットアップ方法、また製品の外寸などのハードウェア情報を解説します。CANDY Pi Liteの活用方法やチュートリアルについては、[CANDY LINE Blog](http://candy-line.tumblr.com/candy-pi-lite) をご覧ください。
 
