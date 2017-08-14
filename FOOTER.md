@@ -1,1 +1,1 @@
-© CANDY LINE INC. / [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) / 最終更新日:{{ file.mtime }}
+© CANDY LINE INC. | [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | 最終更新日:{{ file.mtime|date("YYYY-MM-DD HH:mm Z") }}
