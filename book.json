@@ -1,0 +1,28 @@
+{
+    "title": "CANDY Pi Lite 利用ガイド",
+    "description": "Users guide for CANDY Pi Lite 3G/LTE board",
+    "author": "CANDY LINE INC.",
+    "language": "ja",
+    "plugins": [
+        "page-footer"
+    ],
+    "pluginsConfig": {
+        "page-footer": {
+            "description": "最終更新日",
+            "signature": "CANDY LINE INC.",
+            "wisdom": "つなぐ・手軽に・楽しく！",
+            "format": "yyyy-MM-dd hh:mm:ss",
+            "copyright": "&#169; CANDY LINE INC.",
+            "timeColor": "#444",
+            "copyrightColor": "#444",
+            "utcOffset": "9",
+            "isShowQRCode": false,
+            "baseUri": "https://candy-line.gitbooks.io/candy-pi-lite/content/",
+            "isShowIssues": false,
+            "repo": "candy-line/candy-pi-lite",
+            "issueNum": "0",
+            "token": "",
+            "style": "normal"
+        }
+    }
+}
