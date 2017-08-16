@@ -5,15 +5,15 @@
     "language": "ja",
     "plugins": [
         "localized-footer",
-        "page-toc-button"
+        "toc"
     ],
     "pluginsConfig": {
         "localized-footer": {
             "hline": true
         },
-        "page-toc-button": {
-            "maxTocDepth": 2,
-            "minTocSize": 2
+        "toc": {
+            "addClass": true,
+            "className": "toc"
         }
     }
 }
