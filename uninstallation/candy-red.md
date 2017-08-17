@@ -5,6 +5,8 @@
 $ sudo npm uninstall -g --unsafe-perm candy-red
 ```
 
+**ご注意：必ず`-g`と`--unsafe-perm`を指定してください**
+
 実行すると以下のように表示されます。
 ```bash
 [INFO] candy-red service has been uninstalled.
@@ -20,3 +22,4 @@ $ sudo npm uninstall -g --unsafe-perm candy-red
 ```
 
 ただし、アンインストール実行後も`/opt/candy-red/.node-red`の内容は削除されず残されます。
+また、再びインストールを行ったときは、`/opt/candy-red/.node-red/node_modules`の内容は削除されます。
