@@ -1,0 +1,24 @@
+{
+  "name": "candy-pi-lite-info",
+  "version": "1.0.0",
+  "description": "CANDY Pi Lite Users Guide",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "private": true,
+  "devDependencies": {},
+  "scripts": {
+    "install": "gitbook install",
+    "serve": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dbaba@github.com/CANDY-LINE/candy-pi-lite-info.git"
+  },
+  "author": "CANDY LINE INC.",
+  "license": "CC-BY-NC-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/CANDY-LINE/candy-pi-lite-info/issues"
+  },
+  "homepage": "https://candy-line.gitbooks.io/candy-pi-lite/content/"
+}

@@ -1,3 +1,5 @@
+<!-- toc -->
+
 # USB拡張ボードの使い方
 
 ![CANDY Pi Lite USB Extension Board](/assets/usb-extension-board.png)
