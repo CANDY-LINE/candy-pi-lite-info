@@ -1,3 +1,5 @@
+<!-- toc -->
+
 # 寸法
 
 ## CANDY Pi Lite本体寸法

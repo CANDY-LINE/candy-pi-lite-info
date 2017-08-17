@@ -1,3 +1,5 @@
+<!-- toc -->
+
 # GPIOピンマッピング
 
 CANDY Pi Liteはラズパイ上の以下のGPIOピンを使用しています。

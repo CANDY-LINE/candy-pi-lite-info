@@ -1,3 +1,5 @@
+<!-- toc -->
+
 # 定格
 
 ## CANDY Pi Lite 3Gモデル
