@@ -4,7 +4,7 @@
 
 通常candy-pi-lite-serviceをインストールすると、プリインストールされているNode-REDはアンインストールされます。これは、[CANDY RED](https://github.com/CANDY-LINE/candy-red)をインストールするときに、プリインストールされているNode.jsも更新するためです。
 
-**注意：Raspbian JESSIE LITEをお使いの場合には、もともとNode-REDは含まれておりません**
+**注意：RASPBIAN STRETCH LITEをお使いの場合には、もともとNode-REDは含まれておりません**
 
 一見、Node-REDが使えなくなってしまうようですが、[CANDY RED](https://github.com/CANDY-LINE/candy-red)はNode-REDがベースとなっていますので、Node-REDの代わりとしてそのままお使いいただけます。また、GUIをお使いの場合、スタートメニューのProgrammingの項目からNode-REDを起動できなくなりますが、[CANDY RED](https://github.com/CANDY-LINE/candy-red)はOSが起動された時に自動的に開始されます。
 
