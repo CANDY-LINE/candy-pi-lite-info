@@ -1,3 +1,5 @@
-# サービスの停止、起動、再起動
+# candy-pi-lite サービスの停止、起動、再起動
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+* [起動](start.md)
+* [停止](stop.md)
+* [再起動](restart.md)

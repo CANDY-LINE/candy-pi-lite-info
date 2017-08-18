@@ -17,7 +17,7 @@
 * [アンインストール](uninstallation/README.md)
   * [candy-pi-lite サービスのアンインストール](uninstallation/candy-pi-lite-service.md)
   * [CANDY REDのアンインストール](uninstallation/candy-red.md)
-* [サービスの制御](service/README.md)
+* [candy-pi-lite サービスの制御](service/README.md)
   * [起動](service/start.md)
   * [停止](service/stop.md)
   * [再起動](service/restart.md)
