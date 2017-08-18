@@ -6,6 +6,8 @@
   * [寸法](hardware/size.md)
   * [GPIOピンマッピング](hardware/gpio.md)
 * [セットアップの仕方](setup/README.md)
+  * [3Gモデルの組み立て](setup/assemble-3g.md)
+  * [LTEモデルの組み立て](setup/assemble-lte.md)
   * [低速通信を利用する場合の準備](setup/uart.md)
   * [USB接続を利用する場合の準備](setup/usb.md)
   * [セットアップの開始](setup/terminal.md)
