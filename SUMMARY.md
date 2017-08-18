@@ -25,6 +25,7 @@
   * [LED設定](configuration/led.md)
   * [APN設定](configuration/apn.md)
   * [自動時刻調整](configuration/rtc.md)
+  * [固定IP設定](configuration/static-ip.md)
   * [パケットカウンター(LTEモデルのみ)](configuration/packet-counting.md)
 * [USB拡張ボードの使い方](usbboard.md)
 * [リファレンス](references.md)
