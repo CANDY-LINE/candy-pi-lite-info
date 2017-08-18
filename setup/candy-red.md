@@ -117,7 +117,7 @@ $ ip route | grep default
 default dev ppp0  scope link
 ```
 
-最後に[CANDY REDへのブラウザー接続](candy-red.md)を参照して、ブラウザーから接続してみましょう。
+最後に[CANDY REDへのブラウザー接続](browsing-candy-red.md)を参照して、ブラウザーから接続してみましょう。
 
 ### CANDY REDへコマンドラインから新しいノードを追加するには
 
