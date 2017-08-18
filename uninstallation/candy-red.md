@@ -1,3 +1,5 @@
+<!-- toc -->
+
 # CADNY REDのアンインストール
 
 以下のコマンドを実行すると、[CANDY RED](https://github.com/CANDY-LINE/candy-red)を削除することができます。
