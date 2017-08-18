@@ -7,5 +7,6 @@ CANDY Pi Liteのセットアップには、USB拡張ボードを使わない低�
 * [USB接続を利用する場合の準備](usb.md)
 * [セットアップの開始](terminal.md)
 * [インストールエラー](installation-errors.md)
-* [CANDY REDへのブラウザー接続](candy-red.md)
+* [CANDY REDへのブラウザー接続](bworsing-candy-red.md)
+* [CANDY RED単体のインストール](candy-red.md)
 * [Node-REDからの移行方法](node-red-migration.md)

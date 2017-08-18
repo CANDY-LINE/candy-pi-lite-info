@@ -111,7 +111,7 @@ $ sudo reboot
 
 CANDY Pi LiteのLEDが点滅していれば、セットアップは完了です！
 
-[CANDY REDへのブラウザー接続](candy-red.md)のページを参照して、[CANDY RED](https://github.com/CANDY-LINE/candy-red)を動かしてみましょう。
+[CANDY REDへのブラウザー接続](browsing-candy-red.md)のページを参照して、[CANDY RED](https://github.com/CANDY-LINE/candy-red)を動かしてみましょう。
 あるいは、すでにラズパイで動作するアプリケーションをお持ちの場合は、動かしてみましょう。
 
 もし圏外だったり、アンテナが接続されていなかったりした場合は、モデムは起動できません。LEDの表示はオレンジ色の1つのみ点灯します。
