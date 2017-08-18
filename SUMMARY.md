@@ -22,7 +22,7 @@
   * [停止](service/stop.md)
   * [再起動](service/restart.md)
 * [設定変更](configuration/README.md)
-  * [環境変数設定](configuration/env.md)
+  * [LED設定](configuration/led.md)
   * [APN設定](configuration/apn.md)
   * [自動時刻調整](configuration/rtc.md)
   * [パケットカウンター(LTEモデルのみ)](configuration/packet-counting.md)
