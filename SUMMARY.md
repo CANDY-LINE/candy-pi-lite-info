@@ -17,7 +17,7 @@
 * [バージョンアップの仕方](upgrade/README.md)
   * [candy-pi-lite サービスのアップデート](upgrade/candy-pi-lite-service.md)
   * [CANDY REDのアップデート](upgrade/candy-red.md)
-* [アンインストール](uninstallation/README.md)
+* [アンインストールの仕方](uninstallation/README.md)
   * [candy-pi-lite サービスのアンインストール](uninstallation/candy-pi-lite-service.md)
   * [CANDY REDのアンインストール](uninstallation/candy-red.md)
 * [candy-pi-lite サービスの制御](service/README.md)
