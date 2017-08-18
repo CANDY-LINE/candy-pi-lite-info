@@ -8,7 +8,7 @@ CANDY Pi Liteは、Raspberry Pi（ラズベリーパイ、以下ラズパイ）�
 
 本書では、CANDY Pi Liteの利用方法について、組立方法、利用開始までのセットアップ方法、また製品の外寸などのハードウェア情報を解説します。CANDY Pi Liteの活用方法やチュートリアルについては、[CANDY LINE Blog](http://candy-line.tumblr.com/candy-pi-lite) をご覧ください。
 
-CANDY Pi Liteとそのサービスソフトウェア(candy-pi-lite)は、標準でPPPと呼ばれる方式で携帯電話ネットワークへ接続します。CANDY Pi Liteに搭載している通信モジュールは、Qualcomm Modem Interface(QMI)に対応しているため、USB接続で利用された場合は、QMI WWANを利用して通信を行うことも仕様上は可能です。しかし、今のところcandy-pi-liteサービスではQMI WWANに対応していません。
+CANDY Pi Liteとそのサービスソフトウェア(candy-pi-lite)は、標準でPPPと呼ばれる方式で携帯電話ネットワークへ接続します。CANDY Pi Liteに搭載している通信モジュールは、Qualcomm Modem Interface(QMI)に対応しているため、USB接続で利用された場合は、QMI WWANを利用して通信を行うことも仕様上は可能です。しかし、今のところcandy-pi-lite サービスではQMI WWANに対応していません。
 
 # 本書について
 
