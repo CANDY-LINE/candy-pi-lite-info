@@ -30,7 +30,6 @@
   * [APN設定](configuration/apn.md)
   * [自動時刻調整](configuration/rtc.md)
   * [固定IP設定](configuration/static-ip.md)
-  * [パケットカウンター(LTEモデルのみ)](configuration/packet-counting.md)
 * [コマンドラインツール](cli/README.md)
   * [SIMカード認識状態の表示](/cli/sim.md)
   * [ネットワーク状態の表示](/cli/network.md)
