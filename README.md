@@ -12,7 +12,7 @@ CANDY Pi Liteとそのサービスソフトウェア(candy-pi-lite)は、標準�
 
 # 本書について
 
-本書の内容は、随時加筆修正が行われます。最終更新日をご確認ください。
+本書の内容は、随時加筆修正が行われます。最終更新日をご確認ください。本書をオンラインでご覧になっている場合、PDF/Mobi/ePub版のドキュメントを入手するには、[こちら](https://www.gitbook.com/book/candy-line/candy-pi-lite/details)からダウンロード可能です。
 
 本書の著作権は、株式会社 CANDY LINEが保有しています。
 本書の文章や写真等イメージデータの内容は、[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)ライセンスの下で公開されます。
