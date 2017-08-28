@@ -6,17 +6,17 @@ CANDY Pi Liteはラズパイ上の以下のGPIOピンを使用しています。
 
 GPIOをお使いの場合は、下記以外のピンをご利用ください。
 
-| RPi GPIO(40pins) | GPIO HW Pin#  |   UC20/EC21   | CANDY Pi Lite |
-| ---------------- | ------------- | ------------- | ------------- |
-|  20 (OUT)        |     PIN 38    |    PERESET    |     RESET     |
-|  12 (OUT)        |     PIN 32    |   W_DISABLE   |       -       |
-|  10 (SPI0_MOSI)  |     PIN 19    |       -       |       SI      |
-|   9 (SPI0_MISO)  |     PIN 21    |       -       |       SO      |
-|  11 (SPI0_SCLK)  |     PIN 23    |       -       |      SCLK     |
-|   7 (SPI0_CE1)   |     PIN 26    |       -       |       CS      |
-|  21 (IRQ)        |     PIN 40    |       -       |      IRQ      |
-|       -          |       -       |   LED_WWAN    |  LED1 (GREEN) |
-|   4 (OUT)        |     PIN  7    |       -       |  LED2 (ORANGE)|
+| GPIO HW Pin#  | RPi GPIO(40pins) | ASUS Tinker Board |   UC20/EC21   | CANDY Pi Lite |
+| ------------- | ---------------- | ----------------- | ------------- | ------------- |
+|     PIN 38    |  20 (OUT)        |  187 (OUT)        |    PERESET    |     RESET     |
+|     PIN 32    |  12 (OUT)        |  239 (OUT)        |   W_DISABLE   |       -       |
+|     PIN 19    |  10 (SPI0_MOSI)  |  257 (SPI2TXD)    |       -       |       SI      |
+|     PIN 21    |   9 (SPI0_MISO)  |  256 (SPI2RXD)    |       -       |       SO      |
+|     PIN 23    |  11 (SPI0_SCLK)  |  254 (SPI2CLK)    |       -       |      SCLK     |
+|     PIN 26    |   7 (SPI0_CE1)   |  251 (SPI2CSN1)   |       -       |       CS      |
+|     PIN 40    |  21 (IRQ)        |  188 (IRQ)        |       -       |      IRQ      |
+|       -       |       -          |       -           |   LED_WWAN    |  LED1 (GREEN) |
+|     PIN  7    |   4 (OUT)        |  17 (OUT)         |       -       |  LED2 (ORANGE)|
 
 ## LED2（オレンジ）
 
