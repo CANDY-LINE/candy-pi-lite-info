@@ -77,7 +77,7 @@ $ curl -sL https://git.io/v7bXx | sudo CANDY_RED=0 bash
 また、candy-pi-serviceの特定のバージョンを利用する場合は、以下のようにバージョンを指定することができます。なお、[CANDY RED](https://github.com/CANDY-LINE/candy-red)については、常に最新のバージョンのものだけを利用することができます。
 ```bash
 $ VERSION=1.2.3 && \
-  curl -sL https://raw.githubusercontent.com/CANDY-LINE/candy-pi-service/${VERSION}/install.sh | \
+  curl -sL https://raw.githubusercontent.com/CANDY-LINE/candy-pi-lite-service/${VERSION}/install.sh | \
   sudo bash
 ```
 

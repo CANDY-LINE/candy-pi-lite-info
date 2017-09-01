@@ -29,7 +29,7 @@
     [ALERT] *** Please reboot the system (enter 'sudo reboot') ***
 
 このような場合は、ご利用のネットワーク環境にて一時的にインターネットへ接続できていない可能性があります。
-その結果、[CANDY RED](https://github.com/CANDY-LINE/candy-red)のインストールには失敗しております。しかし、candy-pi-serviceのサービス自体はインストールできています。
+その結果、[CANDY RED](https://github.com/CANDY-LINE/candy-red)のインストールには失敗しております。しかし、candy-pi-lite-serviceのサービス自体はインストールできています。
 
 この場合は、[CANDY REDのインストール方法](CANDY REDのインストール方法.md)をご覧いただき、[CANDY RED](https://github.com/CANDY-LINE/candy-red)のインストールを再度行うようにしてください。
 
