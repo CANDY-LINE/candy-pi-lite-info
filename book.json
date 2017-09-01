@@ -7,16 +7,11 @@
       "fontFamily": "IPAGothic"
     },
     "plugins": [
-        "localized-footer",
-        "toc"
+        "localized-footer"
     ],
     "pluginsConfig": {
         "localized-footer": {
             "hline": true
-        },
-        "toc": {
-            "addClass": true,
-            "className": "toc"
         }
     }
 }
