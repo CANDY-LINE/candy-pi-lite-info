@@ -3,6 +3,9 @@
     "description": "Users guide for CANDY Pi Lite 3G/LTE board",
     "author": "CANDY LINE INC.",
     "language": "ja",
+    "pdf": {
+      "fontFamily": "IPAGothic"
+    },
     "plugins": [
         "localized-footer",
         "toc"
