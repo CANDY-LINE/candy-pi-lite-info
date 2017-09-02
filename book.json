@@ -7,7 +7,8 @@
       "fontFamily": "IPAGothic"
     },
     "plugins": [
-        "localized-footer"
+        "localized-footer",
+        "autocover"
     ],
     "pluginsConfig": {
         "localized-footer": {
