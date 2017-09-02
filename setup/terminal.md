@@ -44,12 +44,16 @@ $ sudo apt-get upgrade -y
 
 **注意：以下のコマンドは、プリインストールされているNode-REDを削除し、[CANDY RED](https://github.com/CANDY-LINE/candy-red)に置き換えます（Node-REDと同じ使い方をすることができますのでNode-REDの代わりとしてお使いいただけます）。Node.jsを更新するため、プリインストールされているNode-REDを残しておくことができないので削除しています。既存のフローをお持ちの場合は、[Node-REDからの移行方法](node-red-migration.md)を参照してください。**
 
-以下のコマンドを実行すると（`git.io`もGitHubの管理するドメインの1つです）、セットアップを開始します。
+### APN指定と固定IP自動設定機能を有効にしてセットアップ
 
-なお`BOOT_APN`には、あらかじめ用意されているAPN設定を指定することができます。`BOOT_APN`を省略することもでき、その場合は、`soracom.io`として扱われます。
+以下のコマンドを実行すると（`git.io`もGitHubの管理するドメインの1つです）、接続先のAPNを指定し、かつ固定IP自動設定機能を有効にしてセットアップを開始します。
+
+`CONFIGURE_STATIC_IP_ON_BOOT`に`1`を設定すると、固定IP自動設定機能が有効になります。省略時は、`0`として扱われ、固定IP自動設定機能は無効になります。固定IP自動設定機能は、固定IPの設定ファイルが存在する場合のみ動作します。常に固定IPを設定する機能ではありません。詳細は、「[固定IPの設定](/configuration/ether-static-ip.md)」をご覧ください。
+
+`BOOT_APN`には、あらかじめ用意されているAPN設定を指定することができます。`BOOT_APN`を省略することもでき、その場合は、`soracom.io`として扱われます。
 
 ```bash
-$ curl -sL https://git.io/v7bXx | sudo BOOT_APN=<apn名> bash
+$ curl -sL https://git.io/v7bXx | sudo CONFIGURE_STATIC_IP_ON_BOOT=1 BOOT_APN=<apn名> bash
 ```
 `<apn名>`には、現在以下の値を指定することができます。
 
@@ -61,27 +65,42 @@ $ curl -sL https://git.io/v7bXx | sudo BOOT_APN=<apn名> bash
 例えば、OCNモバイルONE(LTE)を指定するときは、以下のように指定します。
 
 ```bash
-$ curl -sL https://git.io/v7bXx | sudo BOOT_APN=lte-d.ocn.ne.jp bash
+$ curl -sL https://git.io/v7bXx | sudo CONFIGURE_STATIC_IP_ON_BOOT=1 BOOT_APN=lte-d.ocn.ne.jp bash
 ```
 
-`BOOT_APN`を省略した場合の例は、次の通りです。
+### APN指定のみ行い固定IP自動設定機能を無効にしてセットアップ
+
+```bash
+$ curl -sL https://git.io/v7bXx | sudo CONFIGURE_STATIC_IP_ON_BOOT=0 BOOT_APN=<apn名> bash
+```
+
+### デフォルトのAPNを指定し固定IP自動設定機能を無効にしてセットアップ
+
+`CONFIGURE_STATIC_IP_ON_BOOT`と`BOOT_APN`を省略すると、デフォルトのAPNを指定し、固定IP自動設定機能を無効にした状態でセットアップします。
+
 ```bash
 $ curl -sL https://git.io/v7bXx | sudo bash
 ```
+
+### CANDY REDのインストールをスキップするセットアップ
 
 [CANDY RED](https://github.com/CANDY-LINE/candy-red)を **インストールしない場合** は、以下のように`CANDY_RED=0`を指定します。上記の例にあるように、`BOOT_APN`を付け足しても構いません。
 ```bash
 $ curl -sL https://git.io/v7bXx | sudo CANDY_RED=0 bash
 ```
 
-また、candy-pi-serviceの特定のバージョンを利用する場合は、以下のようにバージョンを指定することができます。なお、[CANDY RED](https://github.com/CANDY-LINE/candy-red)については、常に最新のバージョンのものだけを利用することができます。
+### 指定したバージョンのcandy-pi-lite-serviceをセットアップ
+
+また、candy-pi-lite-serviceの特定のバージョンを利用する場合は、以下のようにバージョンを指定することができます。なお、[CANDY RED](https://github.com/CANDY-LINE/candy-red)については、常に最新のバージョンのものだけを利用することができます。
 ```bash
 $ VERSION=1.2.3 && \
   curl -sL https://raw.githubusercontent.com/CANDY-LINE/candy-pi-lite-service/${VERSION}/install.sh | \
   sudo bash
 ```
 
-**注意：すでにcandy-pi-serviceをインストールしている場合にインストールを実行すると、既存のソフトウェアがアンインストールされます。また、その場合は、インターネットに接続するまでに時間がかかる場合があります。もし5分以上インターネットに接続できない時は、再起動を行ってください。**
+**注意：すでにcandy-pi-lite-serviceをインストールしている場合にインストールを実行すると、既存のソフトウェアがアンインストールされます。また、その場合は、インターネットに接続するまでに時間がかかる場合があります。もし5分以上インターネットに接続できない時は、再起動を行ってください。**
+
+### セットアップコマンドの実施結果
 
 実行すると以下のように表示されます。
 
