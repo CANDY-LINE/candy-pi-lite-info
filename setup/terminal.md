@@ -87,9 +87,13 @@ $ curl -sL https://git.io/v7bXx | sudo bash
 ** 👉[`candy-pi-lite-service v1.6.0`](https://forums.candy-line.io/t/v1-6-0/55)以降で対応しています **
 
 Raspberry Piの場合、Raspbian Stretch からハードウェアWatchdogを設定のみで有効にすることができるようになっています。
-candy-pi-lite サービスをセットアップする際に、ハードウェアWatchdogを有効にしてインストールを行うと自動的にハードウェアWatchdogを有効にします。
+candy-pi-lite サービスをセットアップする際に、`ENABLE_WATCHDOG=1`を指定することによって、ハードウェアWatchdogを有効にしてインストールを行うことができます。
 
 ハードウェアWatchdogを有効にした場合、candy-pi-lite サービスをアンインストールしてもハードウェアWatchdogの設定は **削除されません**。ハードウェアWatchdogを無効にしたいときは、[こちら](/configuration/hw-watchdog.md)の「設定無効化方法」をご覧ください。
+
+```bash
+$ curl -sL https://git.io/v7bXx | sudo ENABLE_WATCHDOG=1 bash
+```
 
 ### CANDY REDのインストールをスキップするセットアップ
 
