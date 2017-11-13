@@ -49,14 +49,16 @@ $ sudo npm cache clean
 
 それでは[CANDY RED](https://github.com/CANDY-LINE/candy-red)をアップデートしましょう。アップデートには、インストールと同様に15分~30分ほどかかる場合もあります。また、インストール時と同じように、`NODE_OPTS`も指定してください。
 
+`309`は、Raspberry Pi3のRAM容量から計算した値です。Raspberry Pi2など他のボードでは、容量に応じて減らしてください。概ね全容量の20%~30%を指定します。例えば、512MBのRAMの場合は、`155`が目安となります。
+
 ```bash
-$ sudo NODE_OPTS=--max-old-space-size=128 npm install -g --unsafe-perm candy-red
+$ sudo NODE_OPTS=--max-old-space-size=309 npm install -g --unsafe-perm candy-red
 ```
 
 もし、なんらかの事情で特定のバージョンをインストールしたいときは、以下のようにバージョンを指定してください。
 
 ```bash
-$ sudo NODE_OPTS=--max-old-space-size=128 npm install -g --unsafe-perm candy-red@バージョン
+$ sudo NODE_OPTS=--max-old-space-size=309 npm install -g --unsafe-perm candy-red@バージョン
 ```
 
 `バージョン`には、例えば`5.0.0`のような形式の文字列を指定します。無効な文字列を指定するとインストールできません。
