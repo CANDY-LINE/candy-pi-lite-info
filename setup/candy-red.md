@@ -4,6 +4,13 @@
 
 candy-pi-lite サービスをインストールすると、ラズパイ上にNode-REDベースのフローエディターである[CANDY RED](https://github.com/CANDY-LINE/candy-red)もインストールされます。通常のNode-REDとしての機能のほか、CANDY EGGクラウドサービスと連携して手軽にクラウドとのやりとりを行うアプリケーションを作成することができます。
 
+> ### <☝️ワンポイント> Node-REDに馴染みのない方にオススメの書籍
+>
+> 2017年に以下の2種類の書籍が発売されました。Node-REDの解説がされています。CANDY REDはNode-REDをベースにしているため、これらの書籍が参考になります。
+>
+> - プログラミング初心者の方へ：[つないで つないで プログラミング Node-REDでつくる初めてのアプリ](https://www.amazon.co.jp/%E3%81%A4%E3%81%AA%E3%81%84%E3%81%A7-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Node-RED%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA-%E6%97%A5%E7%AB%8B-Node-RED%E3%82%A8%E3%83%90%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%AA%E3%82%B9%E3%83%88/dp/486594107X/ref=pd_bxgy_14_img_2?_encoding=UTF8&psc=1&refRID=SFBN3VN5CEB3HPJ1MSZ3)
+> - プログラミングの心得のある方へ：[はじめてのNode‐RED](https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AENode%E2%80%90RED-I%E3%83%BB-BOOKS-Node%E2%80%90RED%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3/dp/4777520269/ref=sr_1_1?s=books&ie=UTF8&qid=1510564607&sr=1-1&keywords=%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AENode%E2%80%90RED+%28I%E3%83%BBO+BOOKS%29&dpID=51preNH1xkL&preST=_SY291_BO1,204,203,200_QL40_)
+
 初回インストール時に[CANDY RED](https://github.com/CANDY-LINE/candy-red)を **インストールしていない場合(`CANDY_RED=0`を指定してインストールした場合)** 以下の手順で追加することができます。すでにインストールされているときは、以下の手順は不要となります。
 
 ### CANDY REDアプリケーションのインストール
