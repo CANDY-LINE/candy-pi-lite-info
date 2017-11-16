@@ -5,3 +5,4 @@
 * [定格](rating.md)
 * [寸法](size.md)
 * [GPIOピンマッピング](gpio.md)
+* [交換部品](supplies.md)
