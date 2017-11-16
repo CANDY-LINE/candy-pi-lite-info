@@ -5,6 +5,7 @@
   * [定格](hardware/rating.md)
   * [寸法](hardware/size.md)
   * [GPIOピンマッピング](hardware/gpio.md)
+  * [交換部品](hardware/supplies.md)
 * [セットアップの仕方](setup/README.md)
   * [3Gモデルの組み立て](setup/assemble-3g.md)
   * [LTEモデルの組み立て](setup/assemble-lte.md)
