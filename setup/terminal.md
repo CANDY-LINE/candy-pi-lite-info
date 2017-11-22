@@ -71,7 +71,7 @@ $ curl -sL https://git.io/v7bXx | sudo CONFIGURE_STATIC_IP_ON_BOOT=1 BOOT_APN=lt
 ### APN指定のみ行い固定IP自動設定機能を無効にしてセットアップ
 
 ```bash
-$ curl -sL https://git.io/v7bXx | sudo CONFIGURE_STATIC_IP_ON_BOOT=0 BOOT_APN=<apn名> bash
+$ curl -sL https://git.io/v7bXx | sudo BOOT_APN=<apn名> bash
 ```
 
 ### デフォルトのAPNを指定し固定IP自動設定機能を無効にしてセットアップ
@@ -80,26 +80,6 @@ $ curl -sL https://git.io/v7bXx | sudo CONFIGURE_STATIC_IP_ON_BOOT=0 BOOT_APN=<a
 
 ```bash
 $ curl -sL https://git.io/v7bXx | sudo bash
-```
-
-### ハードウェアWatchdogを有効にしてセットアップ
-
-** 👉[`candy-pi-lite-service v1.6.0`](https://forums.candy-line.io/t/v1-6-0/55)以降で対応しています **
-
-Raspberry Piの場合、Raspbian Stretch からハードウェアWatchdogを設定のみで有効にすることができるようになっています。
-candy-pi-lite サービスをセットアップする際に、`ENABLE_WATCHDOG=1`を指定することによって、ハードウェアWatchdogを有効にしてインストールを行うことができます。
-
-ハードウェアWatchdogを有効にした場合、candy-pi-lite サービスをアンインストールしてもハードウェアWatchdogの設定は **削除されません**。ハードウェアWatchdogを無効にしたいときは、[こちら](/configuration/hw-watchdog.md)の「設定無効化方法」をご覧ください。
-
-```bash
-$ curl -sL https://git.io/v7bXx | sudo ENABLE_WATCHDOG=1 bash
-```
-
-### CANDY REDのインストールをスキップするセットアップ
-
-[CANDY RED](https://github.com/CANDY-LINE/candy-red)を **インストールしない場合** は、以下のように`CANDY_RED=0`を指定します。上記の例にあるように、`BOOT_APN`を付け足しても構いません。
-```bash
-$ curl -sL https://git.io/v7bXx | sudo CANDY_RED=0 bash
 ```
 
 ### 指定したバージョンのcandy-pi-lite-serviceをセットアップ
