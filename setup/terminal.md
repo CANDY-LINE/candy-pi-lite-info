@@ -1,6 +1,8 @@
 <!-- toc -->
 
-# セットアップの開始
+# 既存SDカードを利用したセットアップ
+
+** 👉 セットアップ済みのRaspbian Stretch LiteベースのOSイメージもご利用いただけます。方法は[こちらのブログ記事](https://candy-line.tumblr.com/post/167761781228/candy-pi-lite-os-image-etcher)をご覧ください。今後本利用ガイドにも内容を追加いたします **
 
 ## コマンド入力の準備
 
