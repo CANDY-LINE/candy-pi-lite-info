@@ -8,11 +8,15 @@
     },
     "plugins": [
         "localized-footer",
-        "autocover"
+        "autocover",
+        "ga"
     ],
     "pluginsConfig": {
         "localized-footer": {
             "hline": true
+        },
+        "ga": {
+            "token": "UA-88353523-5"
         }
     }
 }
