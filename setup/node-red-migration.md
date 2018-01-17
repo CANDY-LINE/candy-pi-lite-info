@@ -27,12 +27,12 @@
 
 ## ノードの移行
 
-Node-REDにプリインストールされていないノードを追加していた場合、[CANDY RED](https://github.com/CANDY-LINE/candy-red)にも追加する必要があります。Node-REDで行った場合と同じように、npmコマンドを使います。違いは、コマンドを実行するディレクトリーとsudoを用いることです。
+Node-REDにプリインストールされていないノードを追加していた場合、[CANDY RED](https://github.com/CANDY-LINE/candy-red)にも追加する必要があります。Node-REDで行った場合と同じように、npmコマンドを使います。違いは、コマンドを実行するディレクトリーと`sudo`と`--unsafe-perm`を用いることです。`--unsafe-perm`は、全てのノードで必要になるとは限りませんが、ノードの種類によってはファイルのコピーにおいてエラーとなる場合がありますので、指定するようにしてください。
 
 以下では、node-red-contrib-slackを[CANDY RED](https://github.com/CANDY-LINE/candy-red)に追加する例を示します。
 
     pi@raspberrypi: ~ $ cd /opt/candy-red/.node-red
-    pi@raspberrypi: /opt/candy-red/.node-red $ sudo npm install node-red-contrib-slack
+    pi@raspberrypi: /opt/candy-red/.node-red $ sudo npm install --unsafe-perm node-red-contrib-slack
     pi@raspberrypi: /opt/candy-red/.node-red $ sudo systemctl restart candy-red
 
 インストールしたノードを有効にするために、サービスを起動しなおす必要があります。これを上記3行目で行っています。単純に再起動する方法でも問題ありません。
