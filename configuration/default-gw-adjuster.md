@@ -10,6 +10,8 @@ CANDY Pi Liteで3G/LTE通信をしている状態で、ラズパイなどへEthe
 
 一方で、このような調整を行うために、任意のデフォルトゲートウェイの設定を許容していませんでした。このため、任意のデフォルトゲートウェイを利用者の方が利用したい場合にはこれまで方法がありませんでした。
 
+**ご注意）調整機能をOFFにした場合に期待通りにネットワークを動作させるには、`ip`コマンドの知識やネットワーク設定の知識が必要です。不明な場合は、本機能をOFFにしないようにしてください。**
+
 ## 調整機能のON/OFF
 
 `candy-pi-lite-service`のインストール時に以下のように`DISABLE_DEFAULT_ROUTE_ADJUSTER=0`を設定することにより、この調整機能をOFFにすることができます。標準ではONとなり（`1`を指定）、有効になります。
@@ -35,3 +37,25 @@ DISABLE_DEFAULT_ROUTE_ADJUSTER=1
 DISABLE_DEFAULT_ROUTE_ADJUSTER=0
 ```
 ファイルを保存したら、[candy-pi-lite サービスを再起動](/service/restart.md)するかラズパイを再起動してください。
+
+## 調整機能をOFFにした場合の注意
+
+通常、以下の例のようにデフォルトルートは`ppp0`に割当たります。
+
+```
+$ ip route
+default dev ppp0 scope link
+10.64.64.64 dev ppp0 proto kernel scope link src 10.160.153.211
+192.168.2.0/24 dev eth0 proto kernel scope link src 192.168.2.3 metric 202
+```
+
+しかし、Ethernetケーブルを抜き差しすると、以下のようにデフォルトゲートウェイの設定が変更されます。
+
+```
+default dev ppp0 scope link
+default via 192.168.2.1 dev eth0 src 192.168.2.3 metric 202
+10.64.64.64 dev ppp0 proto kernel scope link src 10.160.153.211
+192.168.2.0/24 dev eth0 proto kernel scope link src 192.168.2.3 metric 202
+```
+
+このため、Ethernetケーブルを差し込んでいる間も`ppp0`のデフォルトゲートウェイを利用したいときは、明示的に`ip`コマンドでEthernetのデフォルトゲートウェイを削除してください。
