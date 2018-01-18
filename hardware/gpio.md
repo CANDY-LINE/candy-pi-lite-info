@@ -6,17 +6,17 @@ CANDY Pi Liteはラズパイ上の以下のGPIOピンを使用しています。
 
 GPIOをお使いの場合は、下記以外のピンをご利用ください。
 
-| GPIO HW Pin#  | RPi GPIO(40pins) | ASUS Tinker Board |   UC20/EC21   | CANDY Pi Lite |
-| ------------- | ---------------- | ----------------- | ------------- | ------------- |
-|     PIN 38    |  20 (OUT)        |  187 (OUT)        |    PERESET    |     RESET     |
-|     PIN 32    |  12 (OUT)        |  239 (OUT)        |   W_DISABLE   |       -       |
-|     PIN 19    |  10 (SPI0_MOSI)  |  257 (SPI2TXD)    |       -       |       SI      |
-|     PIN 21    |   9 (SPI0_MISO)  |  256 (SPI2RXD)    |       -       |       SO      |
-|     PIN 23    |  11 (SPI0_SCLK)  |  254 (SPI2CLK)    |       -       |      SCLK     |
-|     PIN 26    |   7 (SPI0_CE1)   |  251 (SPI2CSN1)   |       -       |       CS      |
-|     PIN 40    |  21 (IRQ)        |  188 (IRQ)        |       -       |      IRQ      |
-|       -       |       -          |       -           |   LED_WWAN    |  LED1 (GREEN) |
-|     PIN  7    |   4 (OUT)        |  17 (OUT)         |       -       |  LED2 (ORANGE)|
+| GPIO HW Pin#  | RPi GPIO(40pins) | ASUS Tinker Board      |   UC20/EC21   | CANDY Pi Lite |
+| ------------- | ---------------- | ---------------------- | ------------- | ------------- |
+|     PIN 38    |  20 (OUT)        |  187 (OUT, GP6A3)      |    PERESET    |     RESET     |
+|     PIN 32    |  12 (OUT)        |  239 (OUT, GP7C7)      |   W_DISABLE   |       -       |
+|     PIN 19    |  10 (SPI0_MOSI)  |  257 (SPI2TXD, GP8B1)  |       -       |       SI      |
+|     PIN 21    |   9 (SPI0_MISO)  |  256 (SPI2RXD, GP8B0)  |       -       |       SO      |
+|     PIN 23    |  11 (SPI0_SCLK)  |  254 (SPI2CLK, GP8A6)  |       -       |      SCLK     |
+|     PIN 26    |   7 (SPI0_CE1)   |  251 (SPI2CSN1, GP8A3) |       -       |       CS      |
+|     PIN 40    |  21 (IRQ)        |  188 (IRQ, GP6A4)      |       -       |      IRQ      |
+|       -       |       -          |           -            |   LED_WWAN    |  LED1 (GREEN) |
+|     PIN  7    |   4 (OUT)        |  17 (OUT, GP0C1)       |       -       |  LED2 (ORANGE)|
 
 ## LED2（オレンジ）
 
