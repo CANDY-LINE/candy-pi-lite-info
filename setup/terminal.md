@@ -3,6 +3,7 @@
 # 既存SDカードを利用したセットアップ
 
 ** 👉 本手順は、ラズパイ、ASUS Tinker Board共通の手順です **
+
 ** 👉 ラズパイをご利用の方は、セットアップ済みのRaspbian Stretch LiteベースのOSイメージもご利用いただけます。方法は[こちらのブログ記事](https://candy-line.tumblr.com/post/167761781228/candy-pi-lite-os-image-etcher)や、「[OSイメージファイルを利用したセットアップ](/setup/etcher.md)」をご覧ください **
 
 ## コマンド入力の準備
