@@ -133,12 +133,29 @@ default dev ppp0  scope link
 一方で、コマンドラインでノードをインストールすることも可能です。その場合は、以下のようにコマンドを入れてください。
 
 ```
+sudo systemctl stop candy-pi-lite
+sudo systemctl stop candy-red
 cd /opt/candy-red/.node-red
 sudo npm install --unsafe-perm ノードモジュール名
+sudo systemctl start candy-red
+sudo systemctl start candy-pi-lite
 ```
 
-ノードモジュールは、こちらから検索できるノードをご利用ください。「ノードモジュール名」には、`
-node-red-contrib-cache`など、タイトルで表示される文字列を指定します。
+ノードモジュールは、こちらから検索できるノードをご利用ください。「ノードモジュール名」には、`node-red-contrib-cache`など、タイトルで表示される文字列を指定します。
+
+`candy-red`を停止してから、インストール後に起動しています。また、`candy-pi-lite`を停止していますが、これはモバイルネットワーク経由でインストールを行わないようにするための処置です。もし意図してモバイルネットワーク経由でインストールするときは、`candy-pi-lite`を停止させないようにしてください。
+
+### CANDY REDへコマンドラインからノードを削除するには
+
+コマンドラインでノードをアンインストールする場合は、以下のようにコマンドを入れてください。
+
+```
+cd /opt/candy-red/.node-red
+sudo npm uninstall --unsafe-perm ノードモジュール名
+sudo systemctl restart candy-red
+```
+
+ノードモジュールは、こちらから検索できるノードをご利用ください。「ノードモジュール名」には、`node-red-contrib-cache`など、タイトルで表示される文字列を指定します。
 
 ### CANDY REDへコマンドラインで非公開のノードを追加するには
 
