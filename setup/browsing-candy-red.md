@@ -6,7 +6,7 @@ CANDY Pi Liteのセットアップを行うと、[CANDY RED](https://github.com/
 ```
 http://raspberrypi.local:8100
 ```
-もしラズパイのホスト名を変更していた場合は、「ホスト名.local」を「raspberrypi.local」の代わりに指定します。名前で繋がらないときは、IPアドレスを指定しましょう。
+もしラズパイのホスト名を変更していた場合は、「ホスト名.local」を「raspberrypi.local」の代わりに指定します。名前でつながらないときは、IPアドレスを指定しましょう。
 
 ASUS Tinker Boardをお使いの場合は、`raspberrypi.local`の代わりに`tinkerboard.local`を使用できます。
 ```

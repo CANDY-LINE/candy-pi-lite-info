@@ -30,5 +30,5 @@ CANDY Pi Liteのソフトウェア、candy-pi-lite サービスをインスト�
 * `/dev/ttySC0` ... USB拡張ボード用
 * `/dev/ttySC1` ... 3G/LTE通信用
 
-上記の説明にある通り、`/dev/ttySC0`のシリアルポートはUSB拡張ボードのUARTに繋がっています。
+上記の説明にある通り、`/dev/ttySC0`のシリアルポートはUSB拡張ボードのUARTにつながっています。
 このため、USB拡張ボードを利用すると新たにUARTを利用することができるようになります。
