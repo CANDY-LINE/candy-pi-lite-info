@@ -12,6 +12,7 @@
 ![ケーブル取り外し](/assets/how-to-remove-cable.png)
 
 なおもし以下の写真のように破損してしまった場合は、下記の商品にて代用可能です（SMAコネクターの部分がリバースタイプではないもの）。
+
 ![U.FL破損部分](/assets/broken-U.FL.jpg)
 
 - [SMA-U.FL変換ケーブル 長さ約10cm(せんごくネット通販)](http://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=2DC5-UHLE)
