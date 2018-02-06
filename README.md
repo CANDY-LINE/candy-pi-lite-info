@@ -2,7 +2,7 @@
 
 ![CANDY Pi Lite with Raspberry Pi](/assets/candy-pi-lite-birdview-small.png)
 
-CANDY Pi Liteは、Raspberry Pi（ラズベリーパイ、以下ラズパイ）や、ASUS Tinker Boardに取り付けて使用する3G/LTE通信ボードです。
+CANDY Pi Liteは、Raspberry Pi（ラズベリーパイ、以下ラズパイ）や、ASUS Tinker Board(またはS)に取り付けて使用する3G/LTE通信ボードです。
 
 3Gモデルでは、3G回線をご利用頂けます。LTEモデルでは、LTE回線をご利用頂けます。
 
