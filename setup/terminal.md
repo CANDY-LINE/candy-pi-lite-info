@@ -50,7 +50,7 @@ $ sudo apt-get upgrade -y
 
 ### APN指定をしてセットアップ
 
-以下のコマンドを実行すると（`git.io`もGitHubの管理するドメインの1つです）、接続先のAPNを指定し、かつ固定IP自動設定機能を有効にしてセットアップを開始します。
+以下のコマンドを実行すると（`git.io`もGitHubの管理するドメインの1つです）、接続先のAPNを指定してセットアップを開始します。なお、[`candy-pi-lite-service v1.8.0`](https://forums.candy-line.io/t/v1-8-0/90)以降からは、[有線LAN固定IP設定](/configuration/ether-static-ip.md)を特別な設定なくご利用頂けます。
 
 `BOOT_APN`には、あらかじめ用意されているAPN設定を指定することができます。`BOOT_APN`を省略することもでき、その場合は、`soracom.io`として扱われます。
 
