@@ -2,7 +2,9 @@
 
 # ハードウェアWatchdog
 
-** 👉[`candy-pi-lite-service v1.6.0`](https://forums.candy-line.io/t/v1-6-0/55)以降で対応しています **
+**👉 本機能は、ラズパイ専用です。ASUS Tinker Board(またはS)ではご利用になれません**
+
+**👉[`candy-pi-lite-service v1.6.0`](https://forums.candy-line.io/t/v1-6-0/55)以降で対応しています**
 
 ## 概要
 
