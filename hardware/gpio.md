@@ -6,7 +6,7 @@ CANDY Pi Liteはラズパイ上の以下のGPIOピンを使用しています。
 
 GPIOをお使いの場合は、下記以外のピンをご利用ください。
 
-| GPIO HW Pin#  | RPi GPIO(40pins) | ASUS Tinker Board      |   UC20/EC21   | CANDY Pi Lite |
+| GPIO HW Pin#  | RPi GPIO(40pins) | ASUS Tinker Board(またはS)      |   UC20/EC21   | CANDY Pi Lite |
 | ------------- | ---------------- | ---------------------- | ------------- | ------------- |
 |     PIN 38    |  20 (OUT)        |  187 (OUT, GP6A3)      |    PERESET    |     RESET     |
 |     PIN 32    |  12 (OUT)        |  239 (OUT, GP7C7)      |   W_DISABLE   |       -       |
