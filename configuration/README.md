@@ -9,3 +9,4 @@ candy-pi-lite サービスについて以下の設定について説明します
 * [ハードウェアWatchdog](hw-watchdog.md)
 * [EnOcean USBゲートウェイの利用](enocean.md)
 * [デフォルトゲートウェイ調整機能のOFF](default-gw-adjuster.md)
+* [シリアルポートの種別選択指定](serial-port-selector.md)
