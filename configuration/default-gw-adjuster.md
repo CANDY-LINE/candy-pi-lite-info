@@ -12,13 +12,15 @@ CANDY Pi Liteで3G/LTE通信をしている状態で、ラズパイなどへEthe
 
 **ご注意）調整機能をOFFにした場合に期待通りにネットワークを動作させるには、`ip`コマンドの知識やネットワーク設定の知識が必要です。不明な場合は、本機能をOFFにしないようにしてください。**
 
-## 調整機能のON/OFF
+## インストール時の調整機能ON/OFF
 
 `candy-pi-lite-service`のインストール時に以下のように`DISABLE_DEFAULT_ROUTE_ADJUSTER=0`を設定することにより、この調整機能をOFFにすることができます。標準ではONとなり（`1`を指定）、有効になります。
 
 ```bash
 $ curl -sL https://git.io/v7bXx | sudo DISABLE_DEFAULT_ROUTE_ADJUSTER=0 BOOT_APN=<apn名> bash
 ```
+
+## インストールした後に変更する方法
 
 また、**インストールした後** で挙動を変更したい場合は、以下のように環境変数ファイルを開きます。
 
