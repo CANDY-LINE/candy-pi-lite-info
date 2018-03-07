@@ -4,6 +4,7 @@
 * [ハードウェア情報](hardware/README.md)
   * [定格](hardware/rating.md)
   * [寸法](hardware/size.md)
+  * [本体基板外観](hardware/appearance.md)
   * [GPIOピンマッピング](hardware/gpio.md)
   * [交換部品](hardware/supplies.md)
 * [セットアップの仕方](setup/README.md)
