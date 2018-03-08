@@ -23,7 +23,7 @@ APNを指定するには、パソコンなどでマイクロSDカードの`/boot
 
 ただし、APNに上記以外のAPNを指定した時は、エラーとなり`/boot`に保存した`apn`ファイルはそのまま削除されずに残ったままとなります。
 
-## APNの追加
+## APNの簡易追加
 
 ** 👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降で対応しています **
 
@@ -42,29 +42,22 @@ APNを追加したい場合の`apn`ファイルの中身は以下のような書
 
 上記のうち、`APN`、`ユーザーID`、`パスワード`の部分を書き換えてください。ダブルクォーテーション「"」はそのまま残しておいてください。
 
-## APNの指定 *（v1.7.0より古い場合）*
-
-** 👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降ではより簡単な方法をご利用いただけます **
-
-CANDY Pi Liteの携帯電話ネットワークへの接続先(APN)は、`/opt/candy-line/candy-pi-lite/environment`にある以下の箇所に定義されています。
+音声・SMS回線を同時に契約されたSIMをお使いの場合は、以下の設定もお試しいただけます。
 
 ```
-# LTE/3G access point name defined in `apn-list.json`
-APN=soracom.io
+{
+  "apn": "APN",
+  "user": "ユーザーID",
+  "password": "パスワード",
+  "cs": true
+}
 ```
 
-**ご注意：最初に`soracom.io`以外のAPNを指定した場合は、上記には指定されたAPNが書かれています。**
+`"cs": true`を指定すると、音声回線網への登録が確認できた後で通信を開始します。この指定をすると接続までの時間が短くなる場合がありますが、お試しの上効果がなければ外しても問題ありません。なお、データ通信回線をお使いの場合、この指定をすると正しく動作しませんのでご注意ください。
 
-このAPNを変更すると、任意のAPNに接続することができます。ただし、初期状態では以下の4つからのみ指定することができます。
+## プリセットAPNの追加
 
-- `soracom.io` ... ソラコム(3G/LTE共通)
-- `lte-d.ocn.ne.jp` ... OCNモバイルONE(LTE専用)
-- `3g-d-2.ocn.ne.jp` ... OCNモバイルONE(3G専用)
-- `iijmio.jp` ... iij mio(3G/LTE共通)
-
-## APNの追加 *（v1.7.0より古い場合）*
-
-** 👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降ではより簡単な方法をご利用いただけます **
+** 👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降ではより簡単な方法もご利用いただけます **
 
 初期状態で指定できる4つのAPNに加え、ご利用の方々が任意のAPNを追加することができます。初期状態以外のMVNOや閉域網に接続するなど、任意のAPNを指定する場合は以下の手順をおこなってください。
 
@@ -88,4 +81,24 @@ APN=soracom.io
 ```
 最初のカンマはつけておいてください。
 
-追加したAPNを利用するには、`/opt/candy-line/candy-pi-lite/environment`の`APN`に追加したAPNを指定するようにしてください。`apn-list.json`に追加するだけでは、そのAPNを利用できません。
+なお、追加したAPNの指定も忘れずに行ってください。`apn-list.json`に追加するだけでは、そのAPNを利用できません。
+
+## APNの指定 *（v1.7.0より古い場合）*
+
+** 👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降ではより簡単な方法をご利用いただけます **
+
+CANDY Pi Liteの携帯電話ネットワークへの接続先(APN)は、`/opt/candy-line/candy-pi-lite/environment`にある以下の箇所に定義されています。
+
+```
+# LTE/3G access point name defined in `apn-list.json`
+APN=soracom.io
+```
+
+**ご注意：最初に`soracom.io`以外のAPNを指定した場合は、上記には指定されたAPNが書かれています。**
+
+このAPNを変更すると、任意のAPNに接続することができます。ただし、初期状態では以下の4つからのみ指定することができます。
+
+- `soracom.io` ... ソラコム(3G/LTE共通)
+- `lte-d.ocn.ne.jp` ... OCNモバイルONE(LTE専用)
+- `3g-d-2.ocn.ne.jp` ... OCNモバイルONE(3G専用)
+- `iijmio.jp` ... iij mio(3G/LTE共通)
