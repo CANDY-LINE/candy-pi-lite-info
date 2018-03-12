@@ -14,8 +14,16 @@ CANDY Pi Liteとそのサービスソフトウェア(candy-pi-lite)は、標準�
 
 本書の内容は、随時加筆修正が行われます。最終更新日をご確認ください。本書をオンラインでご覧になっている場合、PDF/Mobi/ePub版のドキュメントを入手するには、[こちら](https://www.gitbook.com/book/candy-line/candy-pi-lite/details)からダウンロード可能です。
 
+# 法律とライセンス
+
 本書の著作権は、株式会社 CANDY LINEが保有しています。
 本書の文章や写真等イメージデータの内容は、[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)ライセンスの下で公開されます。
+
+「CANDY LINE」は、株式会社 CANDY LINEの登録商標です。
+
+「CANDY Pi」は、株式会社 CANDY LINEの商標です。
+
+その他、本書に記載されている製品名や会社名は、各企業の登録商標あるいは商標です。本文中では、「™」「®」マークが明記されていないことがあります。
 
 # CANDY Pi Liteの使用について
 
@@ -26,4 +34,4 @@ CANDY Pi Liteとそのサービスソフトウェア(candy-pi-lite)は、標準�
 1. **CANDY Pi LiteのDCジャックは、ASUS Tinker Board Sでは動作しないためお使いいただけません。「S」ではないASUS Tinker Boardにはお使いいただけます。**
 1. **CANDY Pi LiteのEC21-J搭載型LTEモデルは、日本国内専用です。日本国外では利用してはいけません。**
 1. **LTEモデル、3Gモデル共に、日本国内のau/KDDIネットワークやSoftbank系ネットワークには接続できません**
-1. **CANDY LINEがインターネットで公開している情報以外の3G/LTE通信モデムに関する情報については、[リファレンス](references.md)ページ記載のメーカー情報をご覧ください。**
+1. **CANDY LINE®がインターネットで公開している情報以外の3G/4G LTE通信モデムに関する情報については、[リファレンス](references.md)ページ記載のメーカー情報をご覧ください。**
