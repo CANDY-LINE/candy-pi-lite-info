@@ -9,14 +9,14 @@
     "plugins": [
         "localized-footer",
         "autocover",
-        "ga"
+        "gtm"
     ],
     "pluginsConfig": {
         "localized-footer": {
             "hline": true
         },
-        "ga": {
-            "token": "UA-88353523-5"
+        "gtm": {
+            "token": "GTM-WP3VR6W"
         }
     }
 }
