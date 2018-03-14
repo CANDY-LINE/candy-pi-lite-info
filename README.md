@@ -19,9 +19,12 @@ CANDY Pi Liteとそのサービスソフトウェア(candy-pi-lite)は、標準�
 本書の著作権は、株式会社 CANDY LINEが保有しています。
 本書の文章や写真等イメージデータの内容は、[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)ライセンスの下で公開されます。
 
-「CANDY LINE」は、株式会社 CANDY LINEの登録商標です。
-
-「CANDY Pi」は、株式会社 CANDY LINEの商標です。
+- 「CANDY Pi」、「CANDY LINE」は、株式会社 CANDY LINEの商標または登録商標です。
+- 「Raspberry Pi」はRaspberry Pi財団の登録商標です。
+- 「ASUS」は、ASUSTek Computerの登録商標です。
+- 「Bluetooth」は、Bluetooth SIG,Inc.の登録商標です。
+- 「EnOcean」は、EnOcean GmbHの登録商標です。
+- その他の名称は、それぞれの所有者の商標または登録商標です。
 
 その他、本書に記載されている製品名や会社名は、各企業の登録商標あるいは商標です。本文中では、「™」「®」マークが明記されていないことがあります。
 
