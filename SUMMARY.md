@@ -31,6 +31,7 @@
 * [設定変更](configuration/README.md)
   * [LED設定](configuration/led.md)
   * [APN設定](configuration/apn.md)
+  * [プリセットされたAPNの一覧](configuration/apn-list.md)
   * [自動時刻調整](configuration/rtc.md)
   * [有線LAN固定IP設定](configuration/ether-static-ip.md)
   * [ハードウェアWatchdog](configuration/hw-watchdog.md)
