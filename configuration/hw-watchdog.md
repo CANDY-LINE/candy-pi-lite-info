@@ -29,6 +29,7 @@ candy-pi-liteサービスをインストールするときに、`ENABLE_WATCHDOG
 ## 設定無効化方法
 
 ハードウェアWatchdogの設定を無効にするには、まず`/boot/config.txt`ファイルの以下の内容を見つけてください。
+あるいは、WindowsやMacなどのコンピューターでもマイクロSDカードを差し込んでからその中身を見て「`config.txt`」をテキストエディターで開いてみてください。
 
 ```
 dtparam=watchdog=on
@@ -40,4 +41,4 @@ dtparam=watchdog=on
 dtparam=watchdog=off
 ```
 
-ファイルを保存してRaspbianを再起動させてください。
+ファイルを保存してRaspbianを再起動させてください。別のコンピューターで作業した場合は、このマイクロSDカードをRaspberry Piに差し込んで、起動させてください。
