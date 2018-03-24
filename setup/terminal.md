@@ -62,7 +62,7 @@ $ curl -sL https://git.io/v7bXx | sudo BOOT_APN=<apn名> bash
 例えば、IIJモバイル/タイプIのIPv4/IPv6接続を指定するときは、以下のように指定します。
 
 ```bash
-$ curl -sL https://git.io/v7bXx | sudo BOOT_APN=iijmobile.jp-ipv4v6 bash
+$ curl -sL https://git.io/v7bXx | sudo BOOT_APN=iijmobile.biz-ipv4v6 bash
 ```
 
 ### デフォルトのAPNを指定してセットアップ
