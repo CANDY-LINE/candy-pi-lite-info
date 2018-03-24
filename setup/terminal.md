@@ -57,17 +57,12 @@ $ sudo apt-get upgrade -y
 ```bash
 $ curl -sL https://git.io/v7bXx | sudo BOOT_APN=<apn名> bash
 ```
-`<apn名>`には、現在以下の値を指定することができます。
+`<apn名>`には、現在[プリセットされたAPNの一覧](/configuration/apn-list.md)に記載された値を指定することができます。
 
-- `soracom.io` ... ソラコム(3G/LTE共通)
-- `lte-d.ocn.ne.jp` ... OCNモバイルONE(LTE専用)
-- `3g-d-2.ocn.ne.jp` ... OCNモバイルONE(3G専用)
-- `iijmio.jp` ... iij mio(3G/LTE共通)
-
-例えば、OCNモバイルONE(LTE)を指定するときは、以下のように指定します。
+例えば、IIJモバイル/タイプIのIPv4/IPv6接続を指定するときは、以下のように指定します。
 
 ```bash
-$ curl -sL https://git.io/v7bXx | sudo BOOT_APN=lte-d.ocn.ne.jp bash
+$ curl -sL https://git.io/v7bXx | sudo BOOT_APN=iijmobile.jp-ipv4v6 bash
 ```
 
 ### デフォルトのAPNを指定してセットアップ
