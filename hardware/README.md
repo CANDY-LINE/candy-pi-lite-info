@@ -7,3 +7,4 @@
 * [本体基板外観](appearance.md)
 * [GPIOピンマッピング](gpio.md)
 * [交換部品](supplies.md)
+* [ASUS Tinker Board 付属のヒートシンクをお使いの方へ](atb-heatsink.md)

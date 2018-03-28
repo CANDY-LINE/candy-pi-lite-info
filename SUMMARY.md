@@ -7,6 +7,7 @@
   * [本体基板外観](hardware/appearance.md)
   * [GPIOピンマッピング](hardware/gpio.md)
   * [交換部品](hardware/supplies.md)
+  * [ASUS Tinker Board 付属のヒートシンクをお使いの方へ](hardware/atb-heatsink.md)
 * [セットアップの仕方](setup/README.md)
   * [3Gモデルの組み立て](setup/assemble-3g.md)
   * [LTEモデルの組み立て](setup/assemble-lte.md)
