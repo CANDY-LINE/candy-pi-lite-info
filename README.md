@@ -34,7 +34,7 @@ CANDY Pi Liteとそのサービスソフトウェア(candy-pi-lite)は、標準�
 
 1. **CANDY Pi Liteを水に濡らしたり、湿度の高いところで利用したり、あるいはまた結露が発生するような状況で利用しないようにしてください。**
 1. **CANDY Pi LiteのDCジャックは、最大4Aまで対応しています。それより大きい電流容量のACアダプターを利用しないようにしてください。**
-1. **CANDY Pi LiteのDCジャックは、ASUS Tinker Board Sでは動作しないためお使いいただけません。「S」ではないASUS Tinker Boardにはお使いいただけます。**
+1. **CANDY Pi LiteのDCジャックは、初期ロットのASUS Tinker Board Sでは動作しないためお使いいただけません。2018年3月下旬以降に出荷されたASUS Tinker Board Sではご利用いただけます。**
 1. **CANDY Pi LiteのEC21-J搭載型LTEモデルは、日本国内専用です。日本国外では利用してはいけません。**
 1. **LTEモデル、3Gモデル共に、日本国内のau/KDDIネットワークやSoftbank系ネットワークには接続できません**
 1. **CANDY LINE®がインターネットで公開している情報以外の3G/4G LTE通信モデムに関する情報については、[リファレンス](references.md)ページ記載のメーカー情報をご覧ください。**
