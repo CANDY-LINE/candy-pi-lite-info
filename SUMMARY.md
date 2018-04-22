@@ -39,6 +39,7 @@
   * [EnOcean USBゲートウェイの利用](configuration/enocean.md)
   * [デフォルトゲートウェイ調整機能のOFF](configuration/default-gw-adjuster.md)
   * [シリアルポートの種別選択指定](configuration/serial-port-selector.md)
+  * [ufwを利用してグローバルIP経由のPingを拒否する方法](configuration/ufw-icmp.md)
 * [コマンドラインツール](cli/README.md)
   * [SIMカード認識状態の表示](/cli/sim.md)
   * [ネットワーク状態の表示](/cli/network.md)
