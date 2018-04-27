@@ -12,3 +12,4 @@ candy-pi-lite サービスについて以下の設定について説明します
 * [デフォルトゲートウェイ調整機能のOFF](default-gw-adjuster.md)
 * [シリアルポートの種別選択指定](serial-port-selector.md)
 * [ufwを利用してグローバルIP経由のPingを拒否する方法](ufw-icmp.md)
+* [RaspberryPi(Raspbian)でモバイルルーターとして使用する設定](rpi-router.md)
