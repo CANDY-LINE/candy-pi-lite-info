@@ -141,6 +141,12 @@ sudo systemctl start candy-red
 sudo systemctl start candy-pi-lite
 ```
 
+なお、`candy-red`のログを確認したいときは、次のコマンドもご利用ください。
+
+```bash
+$ sudo journalctl -f -u candy-red -o cat
+```
+
 ノードモジュールは、こちらから検索できるノードをご利用ください。「ノードモジュール名」には、`node-red-contrib-cache`など、タイトルで表示される文字列を指定します。
 
 `candy-red`を停止してから、インストール後に起動しています。また、`candy-pi-lite`を停止していますが、これはモバイルネットワーク経由でインストールを行わないようにするための処置です。もし意図してモバイルネットワーク経由でインストールするときは、`candy-pi-lite`を停止させないようにしてください。

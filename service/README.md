@@ -6,3 +6,4 @@ candy-pi-lite サービスの動作をターミナルからコマンドライン
 * [candy-pi-lite サービスの起動](start.md)
 * [candy-pi-lite サービスの停止](stop.md)
 * [candy-pi-lite サービスの再起動](restart.md)
+* [candy-pi-lite サービスのログ表示](cat.md)

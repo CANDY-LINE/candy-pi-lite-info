@@ -29,6 +29,7 @@
   * [起動](service/start.md)
   * [停止](service/stop.md)
   * [再起動](service/restart.md)
+  * [ログ表示](service/cat.md)
 * [設定変更](configuration/README.md)
   * [LED設定](configuration/led.md)
   * [APN設定](configuration/apn.md)
