@@ -13,3 +13,7 @@ candy-pi-lite サービスについて以下の設定について説明します
 * [シリアルポートの種別選択指定](serial-port-selector.md)
 * [ufwを利用してグローバルIP経由のPingを拒否する方法](ufw-icmp.md)
 * [RaspberryPi(Raspbian)でモバイルルーターとして使用する設定](rpi-router.md)
+
+また、CANDY REDの下記設定方法についても説明します。
+
+* [ノードの設定](candy-red-nodes.md)
