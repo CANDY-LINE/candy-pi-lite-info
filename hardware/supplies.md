@@ -6,7 +6,7 @@
 
 USB接続をご利用の場合、ご利用者の方にUSBケーブルをご用意いただく必要があります。USBケーブルは電源を供給する必要はないため、多くの場合コネクターの形状があっていれば現在流通するケーブルを利用可能です。仕様上はUSB2.0の規格を満たしていればそれ以外の要件はありません。
 
-個人利用であれば、100円ショップのものでも利用可能ですし、大量に使用する場合は、下記のような商品をご利用ください。
+個人利用であれば、充電専用ではないものであれば100円ショップのものでも利用可能ですし、大量に使用する場合は、下記のような商品をご利用ください。
 
 - [USBケーブル（秋月電子通商）](http://akizukidenshi.com/catalog/c/cusbcable/)
 - [USBケーブル（せんごくネット通販）](https://www.sengoku.co.jp/mod/sgk_cart/search.php?cid=3684)
@@ -40,7 +40,6 @@ USB接続をご利用の場合、ご利用者の方にUSBケーブルをご用�
 
 SMAコネクター接続のGNSS/GPSアンテナをご利用いただくとケーブルの取り回しがしやすく便利です。
 
-- [SparkFun　GPS-00464 外付けGPSアンテナ3V・SMAタイプ]
-(https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=5DF6-U3EN)
+- [SparkFun　GPS-00464 外付けGPSアンテナ3V・SMAタイプ](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=5DF6-U3EN)
 
 このような製品をご利用ください。なお、同軸ケーブルについては、付属品では足りない場合は上記SMAケーブルをご利用ください。
