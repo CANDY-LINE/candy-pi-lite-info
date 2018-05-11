@@ -1,4 +1,4 @@
-# CANDY Pi Lite/+ 利用ガイド
+# CANDY Pi Lite/CANDY Pi Lite+ 利用ガイド
 
 ![CANDY Pi Lite with Raspberry Pi](/assets/candy-pi-lite-birdview-small.png)
 
