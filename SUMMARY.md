@@ -11,6 +11,7 @@
 * [セットアップの仕方](setup/README.md)
   * [3Gモデルの組み立て](setup/assemble-3g.md)
   * [LTEモデルの組み立て](setup/assemble-lte.md)
+  * [CANDY Pi Lite+の組み立て](setup/assemble-plus.md)
   * [低速通信を利用する場合の準備](setup/uart.md)
   * [USB接続を利用する場合の準備](setup/usb.md)
   * [OSイメージファイルを利用したセットアップ](setup/etcher.md)
