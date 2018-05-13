@@ -47,6 +47,7 @@ RESTART_SCHEDULE_CRON=""
 
 この値には、[crontab表現](https://ja.wikipedia.org/wiki/Crontab)を指定することができます。
 
+なお、上記のスケジュールの時刻はOSに設定したタイムゾーンに合わせて動作します。したがって、UTCであればUTC時間で、JSTであればJST時間でスケジュールが動作します。タイムゾーンを変更するには、`raspi-config`（Raspberry Pi）、`tinker-config`（ASUS Tinker Board）あるいは`dpkg-reconfigure tzdata`コマンド（Raspberry Pi/ASUS Tinker Board）で変更可能です。タイムゾーンを変更した時は、[candy-pi-lite サービスを再起動](/service/restart.md)するかシステムを再起動してください。
 
 ## 時刻調整のための接続
 
