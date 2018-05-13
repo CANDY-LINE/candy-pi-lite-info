@@ -40,4 +40,4 @@ W_DISABLEピンをlowに落とすと、3G/LTE通信モジュールの無線動�
 
 通常は、candy-pi-lite サービスの停止によって通信を停止するようにしてください。
 
-なお、W_DISABLEピンをhighに設定し直したとしても、通信が自動的に復帰することはありません。明示的にcandy-pi-lite サービスを再起動してください。また、無線接続を再開する場合は、W_DISABLEピンをhighに設定し直す必要がありますが、candy-pi-lite サービスは自動的に再設定を行いますので、利用者の方がW_DISABLEピンをhighに戻す必要はありません。
+なお、W_DISABLEピンをhighに設定し直したとしても、通信が自動的に復帰することはありません。明示的に[candy-pi-lite サービスを再起動](/service/restart.md)してください。また、無線接続を再開する場合は、W_DISABLEピンをhighに設定し直す必要がありますが、candy-pi-lite サービスは自動的に再設定を行いますので、利用者の方がW_DISABLEピンをhighに戻す必要はありません。

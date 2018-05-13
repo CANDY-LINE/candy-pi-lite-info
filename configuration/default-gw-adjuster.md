@@ -38,7 +38,7 @@ DISABLE_DEFAULT_ROUTE_ADJUSTER=1
 ```
 DISABLE_DEFAULT_ROUTE_ADJUSTER=0
 ```
-ファイルを保存したら、[candy-pi-lite サービスを再起動](/service/restart.md)するかラズパイを再起動してください。
+ファイルを保存したら、[candy-pi-lite サービスを再起動](/service/restart.md)するかシステムを再起動してください。
 
 ## 調整機能をOFFにした場合の注意
 

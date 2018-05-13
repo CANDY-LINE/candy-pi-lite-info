@@ -42,4 +42,4 @@ SERIAL_PORT_TYPE=auto
 ```
 SERIAL_PORT_TYPE=usb
 ```
-ファイルを保存したら、[candy-pi-lite サービスを再起動](/service/restart.md)するかラズパイを再起動してください。
+ファイルを保存したら、[candy-pi-lite サービスを再起動](/service/restart.md)するかシステムを再起動してください。
