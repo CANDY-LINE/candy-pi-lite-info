@@ -114,6 +114,8 @@ $ sudo reboot
 
 CANDY Pi LiteのLEDが点滅していれば、セットアップは完了です！
 
+なお、接続方法によって次のようにLEDの明滅パターンが異なります。詳細は、[LED設定]((/configuration/led.md))をご覧ください。
+
 [CANDY REDへのブラウザー接続](browsing-candy-red.md)のページを参照して、[CANDY RED](https://github.com/CANDY-LINE/candy-red)を動かしてみましょう。
 あるいは、すでにラズパイまたはASUS Tinker Board(またはS)で動作するアプリケーションをお持ちの場合は、動かしてみましょう。
 
