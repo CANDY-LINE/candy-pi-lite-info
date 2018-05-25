@@ -14,3 +14,4 @@ CANDY Pi Liteは、携帯電話のネットワークに接続できている時�
 1. ラズパイに電源供給するために使用しているUSBケーブルは正しく動作していますか？ USBケーブルの商品の種類や使用状態によっては、CANDY Pi Liteが動作するために必要な電力をラズパイに伝えられていない可能性もあります。他のUSBケーブルをご利用になるか、ACアダプターを利用することも検討してください。
 1. SIMカードが入っているのに、動作しなかったり、`sudo candy sim show`を実行してみても、SIMが認識されておらず、`SIM_STATE_ABSENT`と出てしまったりしていますか？　そのような場合は、CANDY Pi Lite本体やSIMカードに、ホコリやゴミなどが紛れてしまっているかもしれません。[ブロワー（またはブロアー）](https://www.amazon.co.jp/gp/search/ref=a9_asi_1?rh=i%3Aelectronics%2Cn%3A3210981%2Ck%3Aブロアー&keywords=ブロアー&ie=UTF8&qid=1474555047)や[エアダスター](https://www.amazon.co.jp/s/ref=nb_sb_noss_1?__mk_ja_JP=カタカナ&url=search-alias%3Doffice-products&field-keywords=エアダスター&rh=n%3A86731051%2Ck%3Aエアダスター)などでホコリやゴミを取り除いてから、確認してみましょう。
 1. SORACOM Connect Air SIMカードをお使いですか？ その場合は、回線が`使用中`と表示されているか[ユーザーコンソール](https://console.soracom.io/)で確認しましょう。休止中になっていると、契約中の有効なSIMカードであっても接続することができません。
+1. APNの情報はあっていますか？SIMカード契約先だけでなく、回線のプランもAPNの設定とあっていることを確認しましょう。
