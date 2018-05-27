@@ -5,10 +5,22 @@
 candy-pi-lite サービスの再起動のため、停止と起動を一度に行う場合は、ターミナルから以下のコマンドを実行してください。
 
 ```bash
+$ sudo candy service restart
+```
+
+[`candy-pi-lite-service v5.0.0`](https://forums.candy-line.io/t/v5-0-0)より前のバージョンの場合は、以下のコマンドを実行してください。
+
+```bash
 $ sudo systemctl restart candy-pi-lite
 ```
 
 起動後、動作状態を確認するには、以下のコマンドを実行してください。
+
+```bash
+$ sudo candy service status
+```
+
+[`candy-pi-lite-service v5.0.0`](https://forums.candy-line.io/t/v5-0-0)より前のバージョンの場合は、以下のコマンドを実行してください。
 
 ```bash
 $ sudo systemctl status candy-pi-lite

@@ -8,10 +8,22 @@ candy-pi-lite サービスを停止するには、ターミナルから以下の
 **ご注意：このサービスを停止すると、`candy`コマンドを使うことはできませんのでご注意ください。**
 
 ```bash
+$ sudo candy service stop
+```
+
+[`candy-pi-lite-service v5.0.0`](https://forums.candy-line.io/t/v5-0-0)より前のバージョンの場合は、以下のコマンドを実行してください。
+
+```bash
 $ sudo systemctl stop candy-pi-lite
 ```
 
 停止後、動作状態を確認するには、以下のコマンドを実行してください。
+
+```bash
+$ sudo candy service status
+```
+
+[`candy-pi-lite-service v5.0.0`](https://forums.candy-line.io/t/v5-0-0)より前のバージョンの場合は、以下のコマンドを実行してください。
 
 ```bash
 $ sudo systemctl status candy-pi-lite

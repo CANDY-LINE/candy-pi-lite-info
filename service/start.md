@@ -6,10 +6,22 @@ candy-pi-lite サービスを起動するには、ターミナルから以下の
 なお、このサービスは、ラズパイの電源が入ると自動的に起動します。このため、このサービスを止めた場合にのみ、起動を行うようにしてください。
 
 ```bash
+$ sudo candy service start
+```
+
+[`candy-pi-lite-service v5.0.0`](https://forums.candy-line.io/t/v5-0-0)より前のバージョンの場合は、以下のコマンドを実行してください。
+
+```bash
 $ sudo systemctl start candy-pi-lite
 ```
 
 起動後、動作状態を確認するには、以下のコマンドを実行してください。
+
+```bash
+$ sudo candy service status
+```
+
+[`candy-pi-lite-service v5.0.0`](https://forums.candy-line.io/t/v5-0-0)より前のバージョンの場合は、以下のコマンドを実行してください。
 
 ```bash
 $ sudo systemctl status candy-pi-lite
