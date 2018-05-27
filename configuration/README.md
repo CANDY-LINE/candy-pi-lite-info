@@ -6,6 +6,7 @@ candy-pi-lite サービスについて以下の設定について説明します
 * [APN設定](apn.md)
 * [起動時接続設定](connection.md)
 * [プリセットされたAPNの一覧](apn-list.md)
+* [GNSS/GPSの使用](gnss.md)
 * [自動時刻調整](rtc.md)
 * [有線LAN固定IP設定](ether-static-ip.md)
 * [ハードウェアWatchdog](hw-watchdog.md)

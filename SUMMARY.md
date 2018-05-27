@@ -36,6 +36,7 @@
   * [APN設定](configuration/apn.md)
   * [起動時接続設定](configuration/connection.md)
   * [プリセットされたAPNの一覧](configuration/apn-list.md)
+  * [GNSS/GPSの使用](configuration/gnss.md)
   * [自動時刻調整](configuration/rtc.md)
   * [有線LAN固定IP設定](configuration/ether-static-ip.md)
   * [ハードウェアWatchdog](configuration/hw-watchdog.md)
