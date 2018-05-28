@@ -4,7 +4,7 @@ candy-pi-lite サービスについて以下の設定について説明します
 
 * [LED設定](led.md)
 * [APN設定](apn.md)
-* [起動時接続設定](connection.md)
+* [モバイルネットワークへの接続設定](connection.md)
 * [プリセットされたAPNの一覧](apn-list.md)
 * [GNSS/GPSの使用](gnss.md)
 * [自動時刻調整](rtc.md)
