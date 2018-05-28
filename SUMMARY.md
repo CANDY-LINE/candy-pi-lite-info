@@ -51,6 +51,8 @@
   * [SIMカード認識状態の表示](/cli/sim.md)
   * [ネットワーク状態の表示](/cli/network.md)
   * [通信モジュール情報の表示](/cli/modem.md)
+  * [GNSSの制御](/cli/gnss.md)
+  * [モバイルネットワーク接続の制御](/cli/connection.md)
 * [そのほかの利用方法](/misc/README.md)
   * [USB拡張ボードの使い方](/misc/usbboard.md)
 * [リファレンス](references.md)

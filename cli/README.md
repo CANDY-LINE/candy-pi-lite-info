@@ -6,6 +6,8 @@ candy-pi-lite サービスをインストールすると、`candy`コマンド�
   * [SIMカード認識状態の表示](sim.md)
   * [ネットワーク状態の表示](network.md)
   * [通信モジュール情報の表示](modem.md)
+  * [GNSSの制御](gnss.md)
+  * [モバイルネットワーク接続の制御](connection.md)
 
 ## コマンドラインご利用上の注意
 
