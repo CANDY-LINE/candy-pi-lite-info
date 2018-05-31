@@ -51,7 +51,27 @@ USB拡張ボードをCANDY Pi Liteに取り付けるためには、#1のプラ�
 
 ### USB拡張ボードの取り付け
 
-「[3Gモデルの組み立て](assemble-3g.md)」または「[LTEモデルの組み立て](assemble-lte.md)」の図解をご覧になり、四角で囲んだ番号1から6を参照してください。
+「[CANDY Pi Lite 3Gモデルの組み立て](assemble-3g.md)」、「[CANDY Pi Lite LTEモデルの組み立て](assemble-lte.md)」または「CANDY Pi Lite+の組み立て(assemble-plus.md)」の図解をご覧になり、四角で囲んだ番号1から6を参照してください。
+
+### USB接続の確認
+
+USBが正しく接続されているか確認する場合は、USB拡張ボードの取り付けてUSBケーブルをラズパイまたはASUS Tinker Board(またはS)に差し込んでから、電源を入れてコマンドライン（ターミナル）にて、以下のコマンドを実行してください。
+
+```
+$ lsusb
+Bus 001 Device 021: ID 05c6:9003 Qualcomm, Inc. Quectel UC20
+Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. SMSC9512/9514 Fast Ethernet Adapter
+Bus 001 Device 002: ID 0424:9514 Standard Microsystems Corp. SMC9514 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+```
+
+ここで、IDの箇所をご覧いただき、数字とアルファベットの組み合わせが以下のどれかに当てはまるものがあれば、USBで接続ができている状態となります。なお、この例ではIDの数字とアルファベットの左隣に`Qualcomm, Inc. Quectel UC20`と出ていますが、モジュールによっては何も表示されない場合や文字列が異なる可能性もありますので、IDの値でご判断ください。
+
+| 機種               | ID         |
+| ----------------- | ----------- |
+| CANDY Pi Lite 3G  | `05c6:9003` |
+| CANDY Pi Lite LTE | `2c7c:0121` |
+| CANDY Pi Lite+    | `2c7c:0125` |
 
 # 次のステップ
 
