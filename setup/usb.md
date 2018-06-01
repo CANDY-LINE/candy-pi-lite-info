@@ -51,7 +51,7 @@ USB拡張ボードをCANDY Pi Liteに取り付けるためには、#1のプラ�
 
 ### USB拡張ボードの取り付け
 
-「[CANDY Pi Lite 3Gモデルの組み立て](assemble-3g.md)」、「[CANDY Pi Lite LTEモデルの組み立て](assemble-lte.md)」または「CANDY Pi Lite+の組み立て(assemble-plus.md)」の図解をご覧になり、四角で囲んだ番号1から6を参照してください。
+「[CANDY Pi Lite 3Gモデルの組み立て](assemble-3g.md)」、「[CANDY Pi Lite LTEモデルの組み立て](assemble-lte.md)」または「[CANDY Pi Lite+の組み立て](assemble-plus.md)」の図解をご覧になり、四角で囲んだ番号1から6を参照してください。
 
 ### USB接続の確認
 
