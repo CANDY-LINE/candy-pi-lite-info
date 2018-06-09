@@ -4,6 +4,8 @@
 
 CANDY Pi Lite 3GとCANDY Pi Lite+では、専用のアンテナを取り付けることによりGPSの機能を使用することができます。コマンドラインまたは[CANDY RED](https://github.com/CANDY-LINE/candy-red)を使用して、GPSの機能を利用することが可能です。GPSの情報は、JSON形式での取得または、NMEAフォーマットのデータの連続出力を得ることが可能です。
 
+ただし、初期状態では、GNSS/GPSが起動していませんので、[コマンドライン](/cli/gnss.md)で明示的に起動するか、後述のGNSS自動起動を設定しておく必要があります。
+
 [CANDY RED](https://github.com/CANDY-LINE/candy-red)を使用すると、専用のソフトウェアを用意せずにGPSの機能を使ったアプリケーションを作成することができます。詳細については、フォーラムにて投稿予定です。
 
 GNSS/GPS機能をコマンドラインで起動、停止、状態確認、位置取得を行う場合は、[こちらのページ](/cli/gnss.md)をご覧ください。
