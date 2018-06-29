@@ -6,6 +6,12 @@ candy-pi-lite-serviceをインストールすると、以下のシリアルポ�
 
 その他のデバイスのシリアルポートは、対応製品をUSBに差し込んだ際に有効になります。
 
+また、シリアルポートの設定は多くのコマンドで初期設定となる以下の設定となります。
+
+- データビット: 8
+- パリティ: なし
+- ストップビット: 1
+
 ### モバイル通信モジュールのシリアルポート
 
 通信モジュールに関係するシリアルポートは以下の通りです。ボーレートが複数記載されているところは、ATコマンドの反応がない時に複数お試しください。
@@ -31,7 +37,7 @@ candy-pi-lite-serviceをインストールすると、以下のシリアルポ�
 | デバイス                  | シリアルポート名 | ボーレート(baud) | 役割 |
 | ------------------------ | ------------- | -------------- |
 | [EnOcean USB 400J Gateway](https://www.enocean.com/jp/enocean_modules_928mhz/usb-400j/) | /dev/enocean | 57600 | EnOcean通信 |
-| [SmartMesh IP USB Network Manager, 100 Mote Capacity (DC2274A-A)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-a.html#eb-documentation) | DC2274A-A.CLI | CLIインタフェース |
-| [SmartMesh IP USB Network Manager, 100 Mote Capacity (DC2274A-A)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-a.html#eb-documentation) | DC2274A-A.API | APIインタフェース |
-| [SmartMesh IP USB Access Point Mote (DC2274A-B)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-b.html) | DC2274A-B.CLI | CLIインタフェース |
-| [SmartMesh IP USB Access Point Mote (DC2274A-B)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-b.html) | DC2274A-B.API | APIインタフェース |
+| [SmartMesh IP USB Network Manager, 100 Mote Capacity (DC2274A-A)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-a.html#eb-documentation) | DC2274A-A.CLI | 115200 | CLIインタフェース |
+| [SmartMesh IP USB Network Manager, 100 Mote Capacity (DC2274A-A)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-a.html#eb-documentation) | DC2274A-A.API | 115200 | APIインタフェース |
+| [SmartMesh IP USB Access Point Mote (DC2274A-B)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-b.html) | DC2274A-B.CLI | 115200 | CLIインタフェース |
+| [SmartMesh IP USB Access Point Mote (DC2274A-B)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-b.html) | DC2274A-B.API | 115200 | APIインタフェース |
