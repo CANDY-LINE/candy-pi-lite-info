@@ -43,3 +43,13 @@ SMAコネクター接続のGNSS/GPSアンテナをご利用いただくとケー
 - [SparkFun　GPS-00464 外付けGPSアンテナ3V・SMAタイプ](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=5DF6-U3EN)
 
 このような製品をご利用ください。なお、同軸ケーブルについては、付属品では足りない場合は上記SMAケーブルをご利用ください。
+
+## DCジャック用ACアダプター
+
+「CANDY Pi Lite 3G」、「CANDY Pi Lite LTE」や「CANDY Pi Lite+」に搭載されているDCジャックは、以下の規格に合致したACアダプターを利用することが可能です。
+
+- 出力電圧：5V
+- 出力電流：3Aまたは4A（Raspbrry PiやASUS Tinker Boardに取り付ける機器も加味してご検討ください）
+- プラグ形状：DCプラグ・ジャック
+- プラグ寸法：内径：φ2.1mm、外径：φ5.5mm
+- 極性：センタープラス
