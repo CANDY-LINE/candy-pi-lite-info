@@ -17,6 +17,7 @@
 - `iijmobile.jp` ... IIJモバイル／タイプD IPv4ネットワーク(3G/LTE共通)
 - `iijmobile.jp-ipv4v6` ... IIJモバイル／タイプD IPv4/IPv6デュアルスタックネットワーク(3G/LTE共通)
 - `iijmobile.jp-ipv6` ... IIJモバイル／タイプD IPv6ネットワーク(3G/LTE共通)
+- `sd.iijmobile.jp` ... IIJモバイル（下り最大150Mbpsの通信速度向け）／タイプD IPv4ネットワーク(3G/LTE共通)
 - `internet4gd.gdsp` ... Vodafone Global Enterprise M2M IPv4ネットワーク(3G/LTE共通)
 - `m2m4biz.softbank` ... Softbank IoT/M2M SIMカード IPv4ネットワーク(3G/LTE共通)
 - `isp.docomoiot.net` ... docomo IoTスターターSIMカード IPv4ネットワーク(3G/LTE共通)
