@@ -37,7 +37,7 @@ candy-pi-lite-serviceをインストールすると、以下のシリアルポ�
 | デバイス                  | シリアルポート名 | ボーレート(baud) | 役割 |
 | ------------------------ | ------------- | -------------- |
 | [EnOcean USB 400J Gateway](https://www.enocean.com/jp/enocean_modules_928mhz/usb-400j/) | /dev/enocean | 57600 | EnOcean通信 |
-| [SmartMesh IP USB Network Manager, 100 Mote Capacity (DC2274A-A)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-a.html#eb-documentation) | DC2274A-A.CLI | 115200 | CLIインタフェース |
-| [SmartMesh IP USB Network Manager, 100 Mote Capacity (DC2274A-A)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-a.html#eb-documentation) | DC2274A-A.API | 115200 | APIインタフェース |
-| [SmartMesh IP USB Access Point Mote (DC2274A-B)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-b.html) | DC2274A-B.CLI | 115200 | CLIインタフェース |
-| [SmartMesh IP USB Access Point Mote (DC2274A-B)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-b.html) | DC2274A-B.API | 115200 | APIインタフェース |
+| [SmartMesh IP USB Network Manager, 100 Mote Capacity (DC2274A-A)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-a.html#eb-documentation) | /dev/DC2274A-A.CLI | 115200 | CLIインタフェース |
+| [SmartMesh IP USB Network Manager, 100 Mote Capacity (DC2274A-A)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-a.html#eb-documentation) | /dev/DC2274A-A.API | 115200 | APIインタフェース |
+| [SmartMesh IP USB Access Point Mote (DC2274A-B)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-b.html) | /dev/DC2274A-B.CLI | 115200 | CLIインタフェース |
+| [SmartMesh IP USB Access Point Mote (DC2274A-B)](http://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/dc2274a-b.html) | /dev/DC2274A-B.API | 115200 | APIインタフェース |
