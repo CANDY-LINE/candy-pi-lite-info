@@ -46,6 +46,7 @@
   * [ufwを利用してグローバルIP経由のPingを拒否する方法](configuration/ufw-icmp.md)
   * [RaspberryPi(Raspbian)でモバイルルーターとして使用する設定](configuration/rpi-router.md)
   * [利用可能なシリアルポートについて](configuration/serialports.md)
+  * [IP到達確認監視](configuration/ip-reachability-test.md)
 * [CANDY RED設定変更](configuration/README.md)
   * [ノードの設定](configuration/candy-red-nodes.md)
 * [コマンドラインツール](cli/README.md)

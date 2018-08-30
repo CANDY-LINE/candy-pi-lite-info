@@ -16,6 +16,7 @@ candy-pi-lite サービスについて以下の設定について説明します
 * [ufwを利用してグローバルIP経由のPingを拒否する方法](ufw-icmp.md)
 * [RaspberryPi(Raspbian)でモバイルルーターとして使用する設定](rpi-router.md)
 * [利用可能なシリアルポートについて](serialports.md)
+* [IP到達確認監視](ip-reachability-test.md)
 
 また、CANDY REDの下記設定方法についても説明します。
 
