@@ -44,7 +44,7 @@ Vary: Accept-Encoding
 
 続いて`npm`のキャッシュをクリアしておきましょう。そうしないと、古いバージョンを見てしまうかもしれないからです。
 ```
-$ sudo npm cache clean
+$ sudo npm cache clean --force
 ```
 
 それでは[CANDY RED](https://github.com/CANDY-LINE/candy-red)をアップデートしましょう。アップデートには、インストールと同様に15分~30分ほどかかる場合もあります。また、インストール時と同じように、`NODE_OPTS`も指定してください。

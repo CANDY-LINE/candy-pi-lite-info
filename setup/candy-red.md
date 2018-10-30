@@ -74,7 +74,7 @@ $ sudo apt-get install -y python-dev python-rpi.gpio bluez nodejs libudev-dev
 
 続いて`npm`のキャッシュをクリアしておきましょう。そうしないと、古いバージョンを見てしまうかもしれないからです。
 ```
-$ sudo npm cache clean
+$ sudo npm cache clean --force
 ```
 
 それでは[CANDY RED](https://github.com/CANDY-LINE/candy-red)をインストールしましょう。インストールには、15分~30分ほどかかります。`--max-old-space-size=128`には、Node.jsプロセスが割り当てられる上限のメモリーサイズを指定しましょう。デフォルトでは512MiBとなり、Raspberry Piの機種によっては、大きすぎる値になる場合がありますので、最大容量よりも少ない値となるように指定しましょう。この例では、128を割り当てています。
