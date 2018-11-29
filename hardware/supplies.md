@@ -22,9 +22,9 @@ USB接続をご利用の場合、ご利用者の方にUSBケーブルをご用�
 
 「CANDY Pi Lite 3G」、「CANDY Pi Lite LTE」、「CANDY Pi Lite+ D」、「CANDY Pi Lite+ S」、「CANDY Pi Lite+ K」に付属しているアンテナとケーブルは、ソラコム社のコンソールから購入が可能です。
 
-メーカー：Hanwool Technology
-型名：HW-MULTI-GA-RSMA
-参考サイト：https://soracom.jp/products/module/
+- メーカー：Hanwool Technology
+- 型名：HW-MULTI-GA-RSMA
+- 紹介サイト：https://soracom.jp/products/module/
 
 アカウントを作成してから（無料）、管理コンソールの画面を通じて購入が可能です。
 購入方法の詳細については、「[お問い合わせ](https://soracom.jp/contact/)」ページより直接ソラコム社へお問い合わせください。
