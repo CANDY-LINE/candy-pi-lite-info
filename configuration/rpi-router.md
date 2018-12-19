@@ -224,7 +224,13 @@ rsn_pairwise=CCMP
 $ sudo nano /etc/default/hostapd
 ```
 
-中身には以下の内容を入れます。パスなどを変更する必要はありません。
+初期状態では、次のように設定されているところがあります。
+
+```
+#DAEMON_CONF=""
+```
+
+これを以下のように、`#`を取り除き、`""`の中にパスを追記します。このパスはそのまま変更せずにコピー＆ペースとしてご利用ください。
 
 ```
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
