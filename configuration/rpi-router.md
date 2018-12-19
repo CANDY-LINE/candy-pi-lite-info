@@ -254,16 +254,16 @@ $ sudo systemctl enable hostapd
 OSイメージを使用した場合は、次のようなコマンド実行履歴となります。
 
 ```
-sudo systemctl stop candy-pi-lite
-sudo nano /etc/default/ufw
-sudo nano /etc/ufw/before.rules
-sudo nano /etc/sysctl.conf
-sudo nano /boot/boot-ip.json
-sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig
-sudo nano /etc/dnsmasq.conf
-sudo nano /etc/hostapd/hostapd.conf
-sudo nano /etc/default/hostapd
-sudo systemctl enable dnsmasq
-sudo systemctl enable hostapd
-sudo reboot
+$ sudo systemctl stop candy-pi-lite
+$ sudo nano /etc/default/ufw
+$ sudo nano /etc/ufw/before.rules
+$ sudo nano /etc/sysctl.conf
+$ sudo nano /boot/boot-ip.json
+$ sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig
+$ sudo nano /etc/dnsmasq.conf
+$ sudo nano /etc/hostapd/hostapd.conf
+$ sudo nano /etc/default/hostapd
+$ sudo systemctl enable dnsmasq
+$ sudo systemctl enable hostapd
+$ sudo reboot
 ```
