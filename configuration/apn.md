@@ -8,7 +8,7 @@ CANDY Pi Liteの携帯電話ネットワークへの接続先(APN)は、イン�
 
 ## APNの指定
 
-** 👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降で対応しています **
+** 👉[`candy-pi-lite-service v6.2.0`](https://forums.candy-line.io/t/candy-pi-lite-v6-2-0/238)以降で対応しています **
 
 APNを指定するには、パソコンなどでマイクロSDカードの`/boot`ディレクトリーに`apn`または`apn.txt`という名前のファイルを作成します。ファイルの中身は、APNの名称または設定名を指定します。初期状態では、[プリセットされたAPNの一覧](apn-list.md)に記載された名称を利用可能です。
 
