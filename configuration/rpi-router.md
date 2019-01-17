@@ -1,5 +1,7 @@
 # RaspberryPi(Raspbian)でモバイルルーターとして使用する設定
 
+**[既知の不具合] 現在、モバイル通信が切断された時にSSIDが見えなくなる問題があります**
+
 **👉[`candy-pi-lite-service v4.0.0`](https://forums.candy-line.io/t/v4-0-0)以降で対応しています**
 
 CANDY Pi Liteを「Raspbian（ラズビアン）」で動作させるとき、設定を変更するとルーターとして扱うことができるようになります。ここでは、有線LANまたは無線LANから接続したデバイスが、CANDY Pi Liteのモバイルネットワーク接続を利用できるようにするための設定を説明します。
