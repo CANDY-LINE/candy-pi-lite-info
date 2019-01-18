@@ -4,9 +4,9 @@
 
 CANDY Pi Lite及びCANDY Pi Lite+（以降、CANDY Pi Lite/+と表記します）は、Raspberry Pi（ラズベリーパイ、以下ラズパイ）や、ASUS Tinker Board(またはS)に取り付けて使用する3G/4G LTE通信ボードです。
 
-CANDY Pi Lite 3Gモデルでは、3G回線をご利用頂けます。CANDY Pi Lite LTEモデルでは、LTE回線をご利用頂けます。
+CANDY Pi Lite 3Gモデルでは、3G回線をご利用頂けます（日本国外では2G及び3G回線をご利用いただけます）。CANDY Pi Lite LTEモデルでは、LTE回線をご利用頂けます。
 
-CANDY Pi Lite+ Dモデルでは、NTTドコモの3G/4G LTE回線をご利用いただけます。CANDY Pi Lite+ Sモデルでは、Softbankの3G/4G LTE回線をご利用いただけます。
+CANDY Pi Lite+ Dモデルでは、NTTドコモの3G/4G LTE回線をご利用いただけます。CANDY Pi Lite+ Kモデルでは、au/KDDIの4G LTE回線とNTTドコモの3G/4G LTE回線をご利用いただけます。CANDY Pi Lite+ Sモデルでは、Softbankの3G/4G LTE回線をご利用いただけます。
 
 本書では、CANDY Pi Lite/+の利用方法について、組立方法、利用開始までのセットアップ方法、また製品の外寸などのハードウェア情報を解説します。CANDY Pi Lite/+の活用方法やチュートリアルについては、[CANDY LINE Blog](http://candy-line.tumblr.com/tagged/candypilite) をご覧ください。
 
