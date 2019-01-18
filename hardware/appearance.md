@@ -16,6 +16,10 @@
 
 ![CANDY Pi Lite+ D](/assets/PlusD_w500.png)
 
+## CANDY Pi Lite +K（au/KDDI向け）モデル
+
+![CANDY Pi Lite+ K](/assets/PlusK_w500.png)
+
 ## CANDY Pi Lite +S（ソフトバンク向け）モデル
 
 ![CANDY Pi Lite+ S](/assets/PlusS_w500.png)
@@ -41,6 +45,12 @@
 通信モジュール機種名に「EC25」の文字列があり、さらに右下に赤い円形のステッカーが貼り付けられています。
 
 ![CANDY Pi Lite+ D](/assets/PlusD_appearance.png)
+
+## CANDY Pi Lite +K（au/KDDI向け）モデル
+
+通信モジュール機種名に「EC25」の文字列があり、さらに右下に青い円形のステッカーが貼り付けられています。
+
+![CANDY Pi Lite+ K](/assets/PlusK_appearance.png)
 
 ## CANDY Pi Lite +S（ソフトバンク向け）モデル
 
