@@ -6,10 +6,18 @@
 
 ## 情報表示のコマンド
 
+** 👉[`candy-pi-lite-service v6.3.0`](https://forums.candy-line.io/t/candy-pi-lite-v6-3-0)以降で対応しています **
+
 SIMカードの状態やその情報を表示するには、以下のコマンドを実行してください。
 
 ```bash
 $ sudo candy sim show
+```
+
+UART接続（USB接続なし）で通信中の場合は、以下のように`--suspend --resume`をつけてください。これらのオプションをつけ忘れると`Modem is not ready`と表示されたり、結果が表示された後で再接続が行われないことがあります。
+
+```bash
+$ sudo candy sim show --suspend --resume
 ```
 
 実行すると以下のような結果が表示されます。
