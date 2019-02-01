@@ -6,10 +6,22 @@
 OS起動時に常に起動させたい時は、[こちらの「インストールした後にGNSS自動起動設定を変更する方法」](/configuration/gnss.md)をご覧ください。
 
 ```bash
-$ sudo candy gnss start
+$ sudo candy gnss start [オプション]
 ```
 
 CANDY Pi Lite/CANDY Pi Lite+とラズパイまたはASUS Tinker Boardを接続している時は、一度起動すると明示的に停止させるまで起動し続けます。ただし、GNSS電波が不通の状態が続く場合は停止することがあります。
+
+[オプション]には、以下のものを使用することができます。
+（** QZSSについては、👉[`candy-pi-lite-service v6.4.0`](https://forums.candy-line.io/t/candy-pi-lite-v6-4-0)以降で対応しています ** ）
+
+- `-q`または`--qzss` ... QZSS（みちびき）を有効にします。同時に、GLONASSと北斗も有効になります（これら2つは無効にできません）
+- `-a`または`--all` ... QZSS（みちびき）を有効にします。同時に、Galileo、GLONASS、北斗も有効になります（これら3つは無効にできません）
+- `-s`または`--suspend` ... UART接続で通信中の場合、通信を一時的に中断します
+- `-r`または`--resume` ... UART接続で通信を中断している場合、再開します
+
+** ご注意 **
+
+* QZSS（みちびき）は、CANDY Pi Lite+シリーズのみ利用可能です。
 
 UART接続（USB接続なし）で通信中の場合は、以下のように`--suspend --resume`をつけてください。
 
@@ -46,6 +58,18 @@ UART接続（USB接続なし）で通信中の場合は、以下のように`--s
 ```bash
 $ sudo candy gnss status --suspend --resume
 ```
+
+結果は、以下のようなJSON形式の文字列が返ります。
+
+```
+{
+  "session": "stopped",
+  "qzss": "enabled"
+}
+```
+
+- `session` ... GPSが起動中の場合は`started`、そうでない場合は`stopped`となります
+- `qzss` ... QZSSが有効な場合は`enabled`、無効な場合は`disabled`、利用できない場合は`N/A`となります
 
 ## コマンドによるGPSの位置取得
 
