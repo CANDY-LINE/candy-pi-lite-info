@@ -28,12 +28,12 @@ _⚠️実際の画面では「1.3.0」よりも新しい場合があります�
 
 ## マイクロSDカードの準備
 
-OSイメージをマイクロSDに書き込むためには、[Etcher](https://etcher.io)を利用します。Etcherは、Windows、macそれにLinuxデスクトップで利用することができます。
+OSイメージをマイクロSDに書き込むためには、[balenaEtcher](https://balena.io)を利用します。balenaEtcherは、Windows、macそれにLinuxデスクトップで利用することができます。
 
 こちらのサイトでソフトウェアをダウンロードしてインストールしましょう。
 ![etcher-03.png](/assets/etcher-03.png)
 
-ダウンロードとインストールができたら、Etcherを起動しましょう。
+ダウンロードとインストールができたら、balenaEtcherを起動しましょう。
 
 ![etcher-04.png](/assets/etcher-04.png)
 最初に、イメージファイルを選択します。ダウンロードしたイメージファイルを「Select image」をクリックして選択します。 マイクロSDカードをパソコンに取り付けると、「Flash!」を押せるようになります。
