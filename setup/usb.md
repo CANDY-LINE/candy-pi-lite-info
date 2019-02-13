@@ -42,7 +42,9 @@ Wi-Fiの接続で代用することも可能です。ただし、本書ではラ
 
 ### nano(ナノ)サイズのSIMカード
 
-CANDY Pi Liteには、nano（ナノ）サイズのSIMカードを挿しこみます。
+CANDY Pi Liteには、nano（ナノ）サイズのSIMカードを挿しこみます。金属面を下にして以下のような方向に挿し込んでください。
+
+![How to insert a SIM card](/assets/candy-pi-lite-sim-direction.jpg)
 
 ### 精密ドライバー(+, #1)
 
