@@ -24,6 +24,7 @@
 - `ipsim.net` ... [固定IPアドレスSIM イプシム](https://ipsim.net)([Qiita解説記事](https://qiita.com/ipsim_net/items/9cccb64a5afcc03ec0f1))
 - `rokemoba` ... [ロケットモバイル](https://rokemoba.com)([TwitterでのCANDY Pi Lite対応済みツイート](https://twitter.com/rokemoba/status/1039000912604278786))
 - `au.au-net.ne.jp` ... [au/KDDI LTE NET for DATA](https://www.au.com/mobile/charge/internet-connection/ltenet-for-data/)
+- `uqmobile.jp` ... [UQ mobile](https://www.uqwimax.jp/mobile/)
 
 **⚠️ご注意）IIJのSIMカードでIPv6をご利用の場合は、「CANDY Pi Lite LTE」をご利用ください。[IIJのエンジニアによる公式blog「てくろぐ」記事内「IPv6が利用可能な条件」](http://techlog.iij.ad.jp/archives/411)に記載の通り、LTEに対応した端末のみ同社のIPv6はサポートされます。このため、「CANDY Pi Lite 3G」はこの条件に当てはまりませんので、当該機種ではIIJのIPv6をご利用いただけません。**
 
