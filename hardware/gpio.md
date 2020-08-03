@@ -2,7 +2,7 @@
 
 # GPIOピンマッピング
 
-CANDY Pi Lite/CANDY Pi Lite+は以下のGPIOピンを使用しています。なお、付属のUSB拡張ボードを取り付けると、4つのGPIOを任意の用途に使用することができます。詳細は、[USB拡張ボードの使い方](/misc/usbboard.md)をご覧ください。
+CANDY Pi Lite/CANDY Pi Lite+は以下のGPIOピンを使用しています。
 
 GPIOをお使いの場合は、下記以外のピンをご利用ください。
 
