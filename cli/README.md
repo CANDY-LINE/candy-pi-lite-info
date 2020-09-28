@@ -48,3 +48,22 @@ candy-pi-lite サービスをインストールすると、`candy`コマンド�
 - 結果の文字列が`ONLINE`の場合は、接続できています。
 - 結果コードが0以外の場合、文字列には`[ERROR] CANDY Board Service isn't running`が入ります。
 
+### CANDY Pi Liteサービスのソフトウェアバージョンを調べるには
+
+`candy service version`を実行すると、CANDY Pi Liteソフトウェアのバージョンを調べることができます。
+
+実施例）
+```
+$ sudo candy service version
+{
+  "version": "10.0.1"
+}
+```
+
+ただし、サービスが起動していない場合は、次のように`CANDY Board Service isn't running`とメッセージが表示されます。
+その場合はサービスが起動するまで待ってから再度コマンドを実行してください。
+
+```
+$ sudo candy service version
+[ERROR] CANDY Board Service isn't running
+```
