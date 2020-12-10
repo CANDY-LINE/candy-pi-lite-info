@@ -7,3 +7,4 @@ candy-pi-lite サービスの動作をターミナルからコマンドライン
 * [candy-pi-lite サービスの停止](stop.md)
 * [candy-pi-lite サービスの再起動](restart.md)
 * [candy-pi-lite サービスのログ表示](cat.md)
+* [candy-pi-lite サービスの有効化・無効化](enable-disable.md)
