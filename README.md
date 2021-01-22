@@ -10,13 +10,13 @@ CANDY Pi Lite+ Dモデルでは、NTTドコモの3G/4G LTE回線をご利用い�
 
 CANDY Pi Lite+（マルチキャリア版）モデルでは、NTTドコモの3G/4G LTE回線、au/KDDIの4G LTE回線、それにSoftbankの3G/4G LTE回線をご利用いただけます。
 
-本書では、CANDY Pi Lite/+の利用方法について、組立方法、利用開始までのセットアップ方法、また製品の外寸などのハードウェア情報を解説します。CANDY Pi Lite/+の活用方法やチュートリアルについては、[CANDY LINE Blog](http://candy-line.tumblr.com/tagged/candypilite) をご覧ください。
+本書では、CANDY Pi Lite/+の利用方法について、組立方法、利用開始までのセットアップ方法、また製品の外寸などのハードウェア情報を解説します。CANDY Pi Lite/+の活用方法やチュートリアルについては、[CANDY LINE Blog](https://candy-line.com/blog/) をご覧ください。
 
 CANDY Pi Lite/+とそのサービスソフトウェア(candy-pi-lite)は、標準でPPPと呼ばれる方式で携帯電話ネットワークへ接続します。CANDY Pi Lite/+に搭載している通信モジュールは、Qualcomm Modem Interface(QMI)に対応しているため、USB接続で利用された場合は、QMI WWANを利用して通信を行うことも仕様上は可能です。しかし、今のところcandy-pi-lite サービスではQMI WWANに対応していません。
 
 # 本書について
 
-本書の内容は、随時加筆修正が行われます。最終更新日をご確認ください。本書をオンラインでご覧になっている場合、PDF/Mobi/ePub版のドキュメントを入手するには、[こちら](https://www.gitbook.com/book/candy-line/candy-pi-lite/details)からダウンロード可能です。
+本書の内容は、随時加筆修正が行われます。最終更新日をご確認ください。
 
 # 法律とライセンス
 
