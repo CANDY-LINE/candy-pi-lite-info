@@ -8,7 +8,7 @@ CANDY Pi Liteの携帯電話ネットワークへの接続先(APN)は、イン�
 
 ## APNの指定
 
-** 👉[`candy-pi-lite-service v6.2.0`](https://forums.candy-line.io/t/candy-pi-lite-v6-2-0/238)以降で対応しています **
+**👉[`candy-pi-lite-service v6.2.0`](https://forums.candy-line.io/t/candy-pi-lite-v6-2-0/238)以降で対応しています**
 
 APNを指定するには、パソコンなどでマイクロSDカードの`/boot`ディレクトリーに`apn`または`apn.txt`という名前のファイルを作成します。ファイルの中身は、APNの名称または設定名を指定します。初期状態では、[プリセットされたAPNの一覧](apn-list.md)に記載された名称を利用可能です。
 
@@ -25,7 +25,7 @@ APNを指定するには、パソコンなどでマイクロSDカードの`/boot
 
 ## APNの簡易追加
 
-** 👉[`candy-pi-lite-service v6.2.0`](https://forums.candy-line.io/t/candy-pi-lite-v6-2-0/238)以降で対応しています **
+**👉[`candy-pi-lite-service v6.2.0`](https://forums.candy-line.io/t/candy-pi-lite-v6-2-0/238)以降で対応しています**
 
 APNを追加する場合も、`/boot`ディレクトリーに`apn`（または`apn.txt`）という名前のファイルを作成して追加することができるようになりました。この場合は、以下のようにAPNの他、ユーザーIDとパスワードも指定しなければなりません。また、JSON形式ですので書式が間違っていると正しく追加されませんのでご注意ください。エラーとなった場合は、先程と同様に、`/boot/apn`（または`/boot/apn.txt`）のファイルは削除されずに残されています。
 
@@ -135,7 +135,7 @@ CANDY Pi Lite+をご利用の場合、回線契約やご利用中のキャリア
 
 ## プリセットAPNの追加・変更
 
-** 👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降ではより簡単な方法もご利用いただけます **
+**👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降ではより簡単な方法もご利用いただけます**
 
 初期状態で指定できる4つのAPNに加え、ご利用の方々が任意のAPNを追加することができます。初期状態以外のMVNOや閉域網に接続する時や、既存の接続先の設定を変更するなど、任意のAPNを追加・変更する場合は以下の手順をおこなってください。
 
@@ -163,7 +163,7 @@ CANDY Pi Lite+をご利用の場合、回線契約やご利用中のキャリア
 
 ## APNの指定 *（v1.7.0より古い場合）*
 
-** 👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降では上記に記載した`/boot/apn`ファイルを用いたより簡単な方法をご利用いただけます **
+**👉[`candy-pi-lite-service v1.7.0`](https://forums.candy-line.io/t/v1-7-0/63)以降では上記に記載した`/boot/apn`ファイルを用いたより簡単な方法をご利用いただけます**
 
 CANDY Pi Liteの携帯電話ネットワークへの接続先(APN)は、`/opt/candy-line/candy-pi-lite/environment`にある以下の箇所に定義されています。
 
