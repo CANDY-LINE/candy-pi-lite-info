@@ -26,7 +26,7 @@ CANDY Pi Lite/CANDY Pi Lite+とラズパイまたはASUS Tinker Boardを接続�
 UART接続（USB接続なし）で通信中の場合は、以下のように`--suspend --resume`をつけてください。
 
 ```bash
-$ sudo candy gnss start　--suspend --resume
+$ sudo candy gnss start --suspend --resume
 ```
 
 これによって、一時的に接続を中断し、GPSを起動してから接続を再開します。接続が停止する時間は、電波環境が良ければ4G/LTEであれば6秒前後、3Gでは10秒前後となります。
@@ -42,7 +42,7 @@ $ sudo candy gnss stop
 UART接続（USB接続なし）で通信中の場合は、以下のように`--suspend --resume`をつけてください。
 
 ```bash
-$ sudo candy gnss stop--suspend --resume
+$ sudo candy gnss stop --suspend --resume
 ```
 
 ## GPSの起動状態確認
