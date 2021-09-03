@@ -58,7 +58,7 @@ GNSS_ON_STARTUP=1
 ファイルを保存したら、[candy-pi-lite サービスを再起動](/service/restart.md)するかシステムを再起動してください。
 
 ## QZSS（みちびき）を自動起動時に有効にする方法
-**👉[`candy-pi-lite-service v10.4.0`](https://forums.candy-line.io/t/v10-4-0)以降で対応しています**
+**👉[`candy-pi-lite-service v10.4.0`](https://forums.candy-line.io/t/candy-pi-lite-v10-4-0)以降で対応しています**
 
 QZSS（みちびき）を有効にしたいときは、`1`の代わりに`2`または`3`を指定します。
 ```
