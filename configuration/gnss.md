@@ -1,6 +1,6 @@
 ## GNSS/GPSの使用
 
-** 👉[`candy-pi-lite-service v5.0.0`](https://forums.candy-line.io/t/v5-0-0)以降で対応しています **
+**👉[`candy-pi-lite-service v5.0.0`](https://forums.candy-line.io/t/v5-0-0)以降で対応しています**
 
 CANDY Pi Lite 3GとCANDY Pi Lite+では、専用のアンテナを取り付けることによりGPSの機能を使用することができます。コマンドラインまたは[CANDY RED](https://github.com/CANDY-LINE/candy-red)を使用して、GPSの機能を利用することが可能です。GPSの情報は、JSON形式での取得または、NMEAフォーマットのデータの連続出力を得ることが可能です。
 
